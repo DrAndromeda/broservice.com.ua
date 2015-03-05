@@ -2,12 +2,12 @@
 $c=&$this->config;
 $c['manager_theme'] = "MODxRE";
 $c['settings_version'] = "1.0.15";
-$c['show_meta'] = "1";
+$c['show_meta'] = "0";
 $c['server_offset_time'] = "0";
 $c['server_protocol'] = "http";
 $c['manager_language'] = "russian-UTF8";
 $c['modx_charset'] = "UTF-8";
-$c['site_name'] = "My MODX Site";
+$c['site_name'] = "BroService.com.ua ";
 $c['site_start'] = "1";
 $c['error_page'] = "1";
 $c['unauthorized_page'] = "1";
@@ -25,7 +25,7 @@ $c['friendly_urls'] = "1";
 $c['friendly_url_prefix'] = "";
 $c['friendly_url_suffix'] = ".html";
 $c['friendly_alias_urls'] = "1";
-$c['use_alias_path'] = "1";
+$c['use_alias_path'] = "0";
 $c['use_udperms'] = "1";
 $c['udperms_allowroot'] = "0";
 $c['failed_login_attempts'] = "3";
@@ -44,7 +44,7 @@ $c['number_of_messages'] = "30";
 $c['number_of_results'] = "20";
 $c['use_editor'] = "1";
 $c['use_browser'] = "1";
-$c['rb_base_dir'] = "/Applications/MAMP/htdocs/broservice.com.ua/assets/";
+$c['rb_base_dir'] = "/home/u406003031/public_html/assets/";
 $c['rb_base_url'] = "assets/";
 $c['which_editor'] = "TinyMCE";
 $c['fe_editor_lang'] = "russian-UTF8";
@@ -60,7 +60,7 @@ $c['upload_files'] = "aac,au,avi,css,cache,doc,docx,gz,gzip,htaccess,htm,html,js
 $c['upload_maxsize'] = "1048576";
 $c['new_file_permissions'] = "0644";
 $c['new_folder_permissions'] = "0755";
-$c['filemanager_path'] = "/Applications/MAMP/htdocs/broservice.com.ua/";
+$c['filemanager_path'] = "/home/u406003031/public_html/";
 $c['theme_refresher'] = "";
 $c['manager_layout'] = "4";
 $c['custom_contenttype'] = "application/rss+xml,application/pdf,application/vnd.ms-word,application/vnd.ms-excel,text/html,text/css,text/xml,text/javascript,text/plain,application/json";
@@ -84,7 +84,7 @@ $c['datetime_format'] = "dd-mm-YYYY";
 $c['warning_visibility'] = "1";
 $c['remember_last_tab'] = "0";
 $c['enable_bindings'] = "1";
-$c['seostrict'] = "0";
+$c['seostrict'] = "1";
 $c['cache_type'] = "1";
 $c['maxImageWidth'] = "1600";
 $c['maxImageHeight'] = "1200";
@@ -100,7 +100,7 @@ $c['make_folders'] = "0";
 $c['site_id'] = "54d13bd1ac03d";
 $c['site_unavailable_page'] = "";
 $c['reload_site_unavailable'] = "";
-$c['siteunavailable_message_default'] = "";
+$c['siteunavailable_message_default'] = "В настоящее время сайт недоступен.";
 $c['check_files_onlogin'] = "index.php\r\n.htaccess\r\nmanager/index.php\r\nmanager/includes/config.inc.php";
 $c['error_reporting'] = "1";
 $c['send_errormail'] = "0";
@@ -109,16 +109,16 @@ $c['reload_captcha_words'] = "";
 $c['captcha_words_default'] = "MODX,Access,Better,BitCode,Chunk,Cache,Desc,Design,Excell,Enjoy,URLs,TechView,Gerald,Griff,Humphrey,Holiday,Intel,Integration,Joystick,Join(),Oscope,Genetic,Light,Likeness,Marit,Maaike,Niche,Netherlands,Ordinance,Oscillo,Parser,Phusion,Query,Question,Regalia,Righteous,Snippet,Sentinel,Template,Thespian,Unity,Enterprise,Verily,Tattoo,Veri,Website,WideWeb,Yap,Yellow,Zebra,Zygote";
 $c['smtp_secure'] = "none";
 $c['reload_emailsubject'] = "";
-$c['emailsubject_default'] = "";
+$c['emailsubject_default'] = "Данные для авторизации";
 $c['reload_signupemail_message'] = "";
 $c['signupemail_message'] = "Здравствуйте, [+uid+]!\r\n\r\nВаши данные для авторизации в системе управления сайтом [+sname+]:\r\n\r\nИмя пользователя: [+uid+]\r\nПароль: [+pwd+]\r\n\r\nПосле успешной авторизации в системе управления сайтом ([+surl+]), вы сможете изменить свой пароль.\r\n\r\nС уважением, Администрация";
-$c['system_email_signup_default'] = "";
+$c['system_email_signup_default'] = "Здравствуйте, [+uid+]!\r\n\r\nВаши данные для авторизации в системе управления сайтом [+sname+]:\r\n\r\nИмя пользователя: [+uid+]\r\nПароль: [+pwd+]\r\n\r\nПосле успешной авторизации в системе управления сайтом ([+surl+]), вы сможете изменить свой пароль.\r\n\r\nС уважением, Администрация";
 $c['reload_websignupemail_message'] = "";
 $c['websignupemail_message'] = "Здравствуйте, [+uid+]!\r\n\r\nВаши данные для авторизации на [+sname+]:\r\n\r\nИмя пользователя: [+uid+]\r\nПароль: [+pwd+]\r\n\r\nПосле успешной авторизации на [+sname+] ([+surl+]), вы сможете изменить свой пароль.\r\n\r\nС уважением, Администрация";
-$c['system_email_websignup_default'] = "";
+$c['system_email_websignup_default'] = "Здравствуйте, [+uid+]!\r\n\r\nВаши данные для авторизации на [+sname+]:\r\n\r\nИмя пользователя: [+uid+]\r\nПароль: [+pwd+]\r\n\r\nПосле успешной авторизации на [+sname+] ([+surl+]), вы сможете изменить свой пароль.\r\n\r\nС уважением, Администрация";
 $c['reload_system_email_webreminder_message'] = "";
 $c['webpwdreminder_message'] = "Здравствуйте, [+uid+]!\r\n\r\nЧтобы активировать ваш новый пароль, перейдите по следующей ссылке:\r\n\r\n[+surl+]\r\n\r\nПозже вы сможете использовать следующий пароль для авторизации: [+pwd+]\r\n\r\nЕсли это письмо пришло к вам по ошибке, пожалуйста, проигнорируйте его.\r\n\r\nС уважением, Администрация";
-$c['system_email_webreminder_default'] = "";
+$c['system_email_webreminder_default'] = "Здравствуйте, [+uid+]!\r\n\r\nЧтобы активировать ваш новый пароль, перейдите по следующей ссылке:\r\n\r\n[+surl+]\r\n\r\nПозже вы сможете использовать следующий пароль для авторизации: [+pwd+]\r\n\r\nЕсли это письмо пришло к вам по ошибке, пожалуйста, проигнорируйте его.\r\n\r\nС уважением, Администрация";
 $c['tree_page_click'] = "27";
 $c['resource_tree_node_name'] = "pagetitle";
 $c['mce_editor_skin'] = "default";
@@ -132,31 +132,34 @@ $c['tinymce_custom_buttons4'] = "";
 $c['tinymce_css_selectors'] = "left=justifyleft;right=justifyright";
 $c['rb_webuser'] = "0";
 $c['clean_uploaded_filename'] = "0";
-$c['sys_files_checksum'] = "a:4:{s:53:\"/Applications/MAMP/htdocs/broservice.com.ua/index.php\";s:32:\"c6f73908b7b0a58acfe95b0f844d134e\";s:53:\"/Applications/MAMP/htdocs/broservice.com.ua/.htaccess\";s:32:\"03e81c48271aee12d0b0b4fd8c49c4c6\";s:61:\"/Applications/MAMP/htdocs/broservice.com.ua/manager/index.php\";s:32:\"30df65e2d71987b65a4258e318c21aaf\";s:75:\"/Applications/MAMP/htdocs/broservice.com.ua/manager/includes/config.inc.php\";s:32:\"4becfb6a8ebeb892fc5dc5a0c1a9a56f\";}";
+$c['sys_files_checksum'] = "a:4:{s:38:\"/home/u406003031/public_html/index.php\";s:32:\"c6f73908b7b0a58acfe95b0f844d134e\";s:38:\"/home/u406003031/public_html/.htaccess\";s:32:\"5e05ebf5ee95a8c719c9dc89c00fbb09\";s:46:\"/home/u406003031/public_html/manager/index.php\";s:32:\"33939ea72d1fdb0078236234aa6ddad7\";s:60:\"/home/u406003031/public_html/manager/includes/config.inc.php\";s:32:\"5c34ff61a6a54949207803bceed4d40f\";}";
 $this->aliasListing = array();
 $a = &$this->aliasListing;
 $d = &$this->documentListing;
 $m = &$this->documentMap;
-$d['o-servise'] = 1;
-$a[1] = array('id' => 1, 'alias' => 'o-servise', 'path' => '', 'parent' => 0, 'isfolder' => 1);
+$d['servisnyj_centr_brovary'] = 1;
+$a[1] = array('id' => 1, 'alias' => 'servisnyj_centr_brovary', 'path' => '', 'parent' => 0, 'isfolder' => 1);
 $m[] = array('0' => '1');
 $d['remont-skuterov'] = 2;
 $a[2] = array('id' => 2, 'alias' => 'remont-skuterov', 'path' => '', 'parent' => 0, 'isfolder' => 0);
 $m[] = array('0' => '2');
-$d['remont-velosipeda'] = 3;
-$a[3] = array('id' => 3, 'alias' => 'remont-velosipeda', 'path' => '', 'parent' => 0, 'isfolder' => 0);
+$d['remont_velosipedov_v_g_brovary'] = 3;
+$a[3] = array('id' => 3, 'alias' => 'remont_velosipedov_v_g_brovary', 'path' => '', 'parent' => 0, 'isfolder' => 0);
 $m[] = array('0' => '3');
-$d['remont-noutbukov'] = 10;
-$a[10] = array('id' => 10, 'alias' => 'remont-noutbukov', 'path' => '', 'parent' => 0, 'isfolder' => 0);
+$d['remont_noutbukov_i_kompyuterov_g_brovary'] = 10;
+$a[10] = array('id' => 10, 'alias' => 'remont_noutbukov_i_kompyuterov_g_brovary', 'path' => '', 'parent' => 0, 'isfolder' => 0);
 $m[] = array('0' => '10');
-$d['santehnik'] = 16;
-$a[16] = array('id' => 16, 'alias' => 'santehnik', 'path' => '', 'parent' => 0, 'isfolder' => 0);
+$d['santehnik_brovary'] = 16;
+$a[16] = array('id' => 16, 'alias' => 'santehnik_brovary', 'path' => '', 'parent' => 0, 'isfolder' => 0);
 $m[] = array('0' => '16');
+$d['elektrik'] = 24;
+$a[24] = array('id' => 24, 'alias' => 'elektrik', 'path' => '', 'parent' => 0, 'isfolder' => 0);
+$m[] = array('0' => '24');
 $d['prokat-volosipedov-brovary'] = 11;
 $a[11] = array('id' => 11, 'alias' => 'prokat-volosipedov-brovary', 'path' => '', 'parent' => 0, 'isfolder' => 0);
 $m[] = array('0' => '11');
-$d['prokat-skuterov-brovary'] = 12;
-$a[12] = array('id' => 12, 'alias' => 'prokat-skuterov-brovary', 'path' => '', 'parent' => 0, 'isfolder' => 0);
+$d['prokat_motociklov_i_skuterov_brovary_kiev'] = 12;
+$a[12] = array('id' => 12, 'alias' => 'prokat_motociklov_i_skuterov_brovary_kiev', 'path' => '', 'parent' => 0, 'isfolder' => 1);
 $m[] = array('0' => '12');
 $d['santehnik-brovary'] = 15;
 $a[15] = array('id' => 15, 'alias' => 'santehnik-brovary', 'path' => '', 'parent' => 0, 'isfolder' => 0);
@@ -164,24 +167,50 @@ $m[] = array('0' => '15');
 $d['kontakty'] = 4;
 $a[4] = array('id' => 4, 'alias' => 'kontakty', 'path' => '', 'parent' => 0, 'isfolder' => 0);
 $m[] = array('0' => '4');
-$d['o-servise/bystro'] = 18;
-$a[18] = array('id' => 18, 'alias' => 'bystro', 'path' => 'o-servise', 'parent' => 1, 'isfolder' => 0);
+$d['bystro'] = 18;
+$a[18] = array('id' => 18, 'alias' => 'bystro', 'path' => '', 'parent' => 1, 'isfolder' => 0);
 $m[] = array('1' => '18');
-$d['o-servise/kachestveno'] = 19;
-$a[19] = array('id' => 19, 'alias' => 'kachestveno', 'path' => 'o-servise', 'parent' => 1, 'isfolder' => 0);
+$d['kachestvenno'] = 19;
+$a[19] = array('id' => 19, 'alias' => 'kachestvenno', 'path' => '', 'parent' => 1, 'isfolder' => 0);
 $m[] = array('1' => '19');
-$d['o-servise/nadezhno'] = 20;
-$a[20] = array('id' => 20, 'alias' => 'nadezhno', 'path' => 'o-servise', 'parent' => 1, 'isfolder' => 0);
+$d['nadezhno'] = 20;
+$a[20] = array('id' => 20, 'alias' => 'nadezhno', 'path' => '', 'parent' => 1, 'isfolder' => 0);
 $m[] = array('1' => '20');
+$d['prokat_motorollerov_brovary'] = 21;
+$a[21] = array('id' => 21, 'alias' => 'prokat_motorollerov_brovary', 'path' => '', 'parent' => 12, 'isfolder' => 0);
+$m[] = array('12' => '21');
+$d['prokat_mopedov_i_arenda_dolgostrochnaya'] = 22;
+$a[22] = array('id' => 22, 'alias' => 'prokat_mopedov_i_arenda_dolgostrochnaya', 'path' => '', 'parent' => 12, 'isfolder' => 0);
+$m[] = array('12' => '22');
+$d['prokat_skuterov_kiev_i_brovary'] = 23;
+$a[23] = array('id' => 23, 'alias' => 'prokat_skuterov_kiev_i_brovary', 'path' => '', 'parent' => 12, 'isfolder' => 0);
+$m[] = array('12' => '23');
 $c = &$this->contentTypes;
 $c = &$this->chunkCache;
 $c['mm_rules'] = '// more example rules are in assets/plugins/managermanager/example_mm_rules.inc.php
-// example of how PHP is allowed - check that a TV named documentTags exists before creating rule
 
-if ($modx->db->getValue($modx->db->select(\'count(id)\', $modx->getFullTableName(\'site_tmplvars\'), "name=\'documentTags\'"))) {
-	mm_widget_tags(\'documentTags\', \' \'); // Give blog tag editing capabilities to the \'documentTags (3)\' TV
-}
-mm_widget_showimagetvs(); // Always give a preview of Image TVs
+mm_widget_showimagetvs(); // Показываем превью ТВ
+
+mm_renameField(\'log\', \'Дочерние ресурсы отображаются в дереве\');
+mm_changeFieldHelp(\'log\', \'Это поле используется для папок с большим числом вложенных страниц\');
+
+mm_createTab(\'Для SEO\', \'seo\', \'\', \'\', \'\', \'\');
+mm_moveFieldsToTab(\'titl,keyw,desc,seoOverride,noIndex,sitemap_changefreq,sitemap_priority,sitemap_exclude\', \'seo\', \'\', \'\');
+mm_widget_tags(\'keyw\',\',\'); // Give blog tag editing capabilities to the \'documentTags (3)\' TV
+
+
+//mm_createTab(\'Изображения\', \'photos\', \'\', \'\', \'\', \'850\');
+//mm_moveFieldsToTab(\'images,photos\', \'photos\', \'\', \'\');
+
+//mm_hideFields(\'longtitle,description,link_attributes,menutitle,content\', \'\', \'6,7\');
+
+//mm_hideTemplates(\'0,5,8,9,11,12\', \'2,3\');
+
+//mm_hideTabs(\'settings, access\', \'2\');
+
+//mm_widget_evogallery(1, Галерея, \'1,2,3\', 3);   // подключаем галерею 
+//mm_galleryLink($fields, $roles, $templates, $moduleid);
+//mm_widget_evogallery($moduleid, $title, $roles, $templates);
 ';
 $c['WebLoginSideBar'] = '<!-- #declare:separator <hr> -->
 <!-- login form section-->
@@ -216,27 +245,20 @@ Do you wish to <a href="[+action+]" class="button">[+logouttext+]</a>?
 $c['HEAD'] = '<!DOCTYPE html>
 <html lang="en">
 	<head>
-		
-    <title>[(site_name)] | [*longtitle*]</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=[(modx_charset)]"/>
+<title>[*titl*]</title>
+   
 	<meta name="viewport" content="width=device-width">	
 		
     <meta charset="[(modx_charset)]">
 		<base href="[(site_url)]" />
-		<meta name="keywords" content="[*keywords*]" />
-		<meta name="description" content="[*description*]" />
-    <link href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css"rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
-    <link href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css"rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+		<meta name="keywords" content="[*keyw*]"/>
+<meta name="description" content="[*desc*]"/>
+    <link href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css" rel="stylesheet" type="text/css" media="screen" >
+    <link href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css" rel="stylesheet" type="text/css" media="screen">
 		<script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery-1.7.min.js"></script>
 		<script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery.easing.1.3.js"></script>
 		<script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/FF-cash.js"></script>
-		
-		<link rel="stylesheet" type="text/css" href="assets/themes/styzo/css/bootstrap.css" />
-		<link rel="stylesheet" type="text/css" href="assets/templates/Free\\ Website\\ Template\\ Security\\ Project/css/bootstrap-responsive.css" />
-		<link rel="stylesheet" type="text/css" href="assets/templates/Free\\ Website\\ Template\\ Security\\ Project/css/jquery.vegas.css" />
-		<link rel="stylesheet" type="text/css" href="assets/templates/Free\\ Website\\ Template\\ Security\\ Project/css/cubeportfolio.css">
-		<link rel="stylesheet" type="text/css" href="assets/templates/Free\\ Website\\ Template\\ Security\\ Project/css/animate.css" />
-		<link rel="stylesheet" type="text/css" href="assets/templates/Free\\ Website\\ Template\\ Security\\ Project/css/style.css" />
-		<link href="index-id=42.php" rel="stylesheet">
 	<!--[if lt IE 8]>
        <div style=\' clear: both; text-align:center; position: relative;\'>
          <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -248,31 +270,25 @@ $c['HEAD'] = '<!DOCTYPE html>
    		<script type="text/javascript" src="js/html5.js"></script>
     	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
 	<![endif]-->
-	
+	<link rel="icon" href="assets/images/favicon.ico" type="image/vnd.microsoft.icon" />
 </head>';
 $c['HEADER'] = '<header>
-	<style type="text/css">
-    b:first-child {
-     color: #d3d3d3; /* Красный цвет текста */
-    }
-  </style>
   	<div class="main">
       <div class="wrap">
 		  <div class="linkblock" onclick="location.href=\'http://broservice.com.ua/\';"><a><b>Bro</b>Service.com.ua</a>
-				<div class="logo">	
-				</div>
+				
 			</div>
 					
 				
-		  <div class="slogan">Лучший сервис в Броварах! <br> тел. 093-270-46-96 </div>
+		  <div class="slogan">Лучший сервис в Броварах! <br> <img title="Viber" alt="Viber" class="roo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.svg" onerror="this.onerror=null; this.src=\'assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.png\'"> тел. 093-270-46-96 </div>
 		  
           <div class="tooltips">
-			  <a href="#"><img src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-1.png" alt=""></a><a href="#"><img src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-2.png" alt=""></a><a href="#"><img src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-3.png" alt=""></a>
+			  <a href="#"><img class="rooo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-1.svg" alt=""></a><a href="#"><img class="roo1" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-2.svg" alt=""></a><a href="#"><img class="roo2" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-3.svg" alt=""></a>
           </div>
       </div>
       
 		  {{MENU}}
-     
+		</a>
     <div class="header-content">
       <div class="wrap main">
 		  
@@ -286,22 +302,14 @@ $c['column_tpl_last'] = '<div class="block-1">
             <div>
             	<p class="color-1 p2">[+pagetitle+] </p>
                 <p>[+introtext+]</p>
-                <a href="#" class="button top-1">Читать далие...</a>
+                <a href="#" class="button top-1">Читать далее...</a>
             </div>
         </div>';
-$c['thank-tpl'] = 'strong>Спасибо, что воспользовались формой обратной связи на нашем сайте.</strong>
-<p>Ваше сообщение будет рассмотрено в кротчайшие сроки, и, если оно требует ответа, Вы обязательно его получите.</p>
-<p>Отправленная информация:</p>
-<ul>
-<li><b>Ваше имя:</b> [+author+]</li>
-<li><b>Ваш e-mail:</b> [+email+]</li>
-<li><b>Текст сообщения:</b> [+text+]</li>
-</ul>';
 $c['MENU'] = '<div class="nav-shadow">
       	<div>
           <nav>
               <ul class="menu">
-				  [!Wayfinder? &startId=`0` &level=`2`!] 
+				  [!Wayfinder? &startId=`0` &level=`1`!] 
                   
               </ul>    
           </nav>
@@ -359,21 +367,25 @@ $c['COLUMN'] = '<section id="content">
         </div>
       </div>
   </section>';
-$c['FOOTER'] = '<footer>
+$c['FOOTER'] = '<footer style="color:#ff6c36">
 	<p> BroService.com.ua ·  2015 · Все права защищены.</p> 
       <p>Телефон: 067 559 6580 &nbsp; Email: <a href="#" class="link">info@broservice.com.ua</a></p>
 	<a>Партнеры</a> : <a rel="nofollow" href="http://crystalwater.kiev.ua/" class="link" target="_blank">crystalwater.kiev.ua</a>
 
-	 <a rel="nofollow" href="http://AdFoto.com.ua" class="link" target="_blank">AdFoto.com.ua</a>';
+	 <a rel="nofollow" href="http://AdFoto.com.ua" class="link" target="_blank">AdFoto.com.ua</a>
+</footer>';
 $c['HEAD_PRODUCTS'] = '<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <title>[(site_name)] | [*longtitle*]</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=[(modx_charset)]"/>
+<title>[*titl*]</title>
+   
+	<meta name="viewport" content="width=device-width">	
+		
     <meta charset="[(modx_charset)]">
 		<base href="[(site_url)]" />
-		<meta name="keywords" content="[*keywords*]" />
-		<meta name="description" content="[*description*]" />
+		<meta name="keywords" content="[*keyw*]"/>
+<meta name="description" content="[*desc*]"/>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/templates/Free%20Website%20Template%20Security%20Project/css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css">
@@ -392,6 +404,7 @@ $c['HEAD_PRODUCTS'] = '<!DOCTYPE html>
    		<script type="text/javascript" src="js/html5.js"></script>
     	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
 	<![endif]-->
+		<link rel="icon" href="assets/images/favicon.ico" type="image/vnd.microsoft.icon" />
 </head>';
 $c['HEADER_PRODUCTS'] = '<header>
 	<style type="text/css">
@@ -401,29 +414,30 @@ $c['HEADER_PRODUCTS'] = '<header>
   </style>
   	<div class="main">
       <div class="wrap">
-		  <div class="linkblock" onclick="location.href=\'http://localhost/broservice.com.ua/\';"><a><b>Bro</b>Service.com.ua</a>
+		  <div class="linkblock" onclick="location.href=\'http://broservice.com.ua/\';"><a><b>Bro</b>Service.com.ua</a>
 				<div class="logo">	
 				</div>
 			</div>
 					
 				
-          <div class="slogan">Лучший сервис в Броварах!</div>
+<div class="slogan">Лучший сервис в Броварах! <br> <img title="Viber" alt="Viber" class="roo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.svg" onerror="this.onerror=null; this.src=\'assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.png\'"> тел. 093-270-46-96 </div>
+		  
           <div class="tooltips">
-			  <a href="#"><img src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-1.png" alt=""></a><a href="#"><img src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-2.png" alt=""></a><a href="#"><img src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-3.png" alt=""></a>
+			  <a href="#"><img class="rooo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-1.svg" alt=""></a><a href="#"><img class="roo1" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-2.svg" alt=""></a><a href="#"><img class="roo2" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-3.svg" alt=""></a>
           </div>
       </div>
+      
 		{{MENU}}
       </div>
    
     <div class="header-content header-subpages"></div>
-  </header><div class="ic">More Website Templates @ TemplateMonster.com - March 12, 2012!</div>
-';
+  </header><div class="ic">More Website Templates @ TemplateMonster.com - March 12, 2012!</div>';
 $c['column_tpl'] = '<div class="block-1">
 	<img title="[+pagetitle+]" src="[+column_img+]" alt="[+pagetitle+]" class="img-radius"/>
             <div class="border-1">
             	<p class="color-1 p2">[+pagetitle+]</p>
                 <p>[+introtext+]</p>
-                <a href="#" class="button top-1">Читать далие...</a>
+                <a href="#" class="button top-1">Читать далее...</a>
             </div>
         </div>
 ';
@@ -508,38 +522,63 @@ $c['FOOTER_PRODUCTS'] = '<footer>
       <p>Phone: +1 800 559 6580 &nbsp; Email: <a href="#" class="link">info@security.com</a></p>
   </footer>';
 $c['CONTENT'] = '[*content*]';
-$c['report-tpl'] = '<p>Это сообщение было отправлено посетителем по имени [+author+] с помощью формы обратной связи. </p>
-<table>
-<tr valign="top"><td><b>Имя:</b></td><td>[+author+]</td></tr>
-<tr valign="top"><td><b>Email:</b>:</td><td>[+email+]</td></tr>
-<tr valign="top"><td><b>Сообщение:</b></td><td>[+text+]</td></tr>
-</table>
-<p>Вы можете использовать эту ссылку для ответа: <a href="mailto:[+email+]?subject=RE:[+subject+]">[+email+]</a></p>
-';
-$c['form'] = '[!eForm? &formid=`Send` &tpl=`form-tpl` &to=`info@site.ru,support@site.ru,requests@site.ru` &mailselector=`otdel` &report=`report-tpl` &thankyou=`thank-tpl` &vericode=`1` &subject=`Сообщение с моего сайта`!]';
-$c['contacty'] = '<div class="cleaner_h40"></div>
-        
-        <div class="two_column float_l">
-            
-                   <h6>Наш адрес</h6>
-                ХХХХХХХХХХХХХХХХХХХХХХХХ <br />
-                ХХХХХХХХХХХХХХХХХХХХХХХХ<br />
-                ХХХХХХХХХХХХХХХХХХХХХХХХ<br />
-                <br />
-                Email: хххххх@хххххх.ххх</div>
-                
-                <div class="two_column float_r">
-           
-                <h6>Дополнительный офис</h6>
-                ХХХХХХХХХХХХХХХХХХХХХХХХ <br />
-                ХХХХХХХХХХХХХХХХХХХХХХХХ<br />
-                ХХХХХХХХХХХХХХХХХХХХХХХХ<br />
-                <br />
-                Email: хххххх@хххххх.ххх</div>
-        
-        
-            <div class="cleaner_h50"></div>
-{{form}}';
+$c['KRU'] = '<!--////////// services SECTION //////////-->
+			<section id="section-9" class="services page">
+		   <div id="services" class="full-width">
+			        <div class="row">
+					<div class="services-area">
+							<div class="circle">
+							  <div class="icon">
+								  <img src="assets/icons/settings3.png" alt="">
+							  </div>
+							</div>
+         <div class="circle1">
+               <div class="icon">
+ <img src="assets/icons/arrow12.png" alt="">
+ </div>
+</div></div></div>
+   <div class="circle2" >
+ <div class="icon">
+ <img src="assets/icons/flashon.png" alt="">
+ </div>
+							</div>						
+		</div>										
+</section>';
+$c['Duplicate of KRU'] = '<!--////////// services SECTION //////////-->
+
+			<section id="section-9" class="services page">
+		   <div id="services" class="full-width">
+		        <div class="container">
+			        <div class="row">
+					<div class="services-area">
+						
+							<div class="circle">
+							  <div class="icon">
+								  <img src="assets/icons/settings3.png" alt="">
+							  </div>
+							</div>
+      
+ 
+         <div class="circle1">
+               <div class="icon">
+ <img src="assets/icons/arrow12.png" alt="">
+ </div>
+</div></div>
+
+							
+		</div>
+
+   <div class="circle2" >
+ <div class="icon">
+ <img src="assets/icons/flashon.png" alt="">
+ </div>
+							</div>
+							
+		</div>
+						</div>
+			
+		
+</section>';
 $c['form-tpl'] = '<div id="contact_form">
             
                   <h3>Обратная связь</h3>         
@@ -575,79 +614,27 @@ $c['form-tpl'] = '<div id="contact_form">
                   </form>
  
             </div>';
-$c['KRU'] = '<!--////////// services SECTION //////////-->
-
+$c['KRU2'] = '<!--////////// services SECTION //////////-->
 			<section id="section-9" class="services page">
 		   <div id="services" class="full-width">
-		        <div class="container">
 			        <div class="row">
 					<div class="services-area">
-						
 							<div class="circle">
 							  <div class="icon">
-								  <img src="assets/icons/settings3.png" alt="">
+								  <img src="assets/icons/flashon.png" alt="">
 							  </div>
 							</div>
-      
- 
          <div class="circle1">
                <div class="icon">
  <img src="assets/icons/arrow12.png" alt="">
  </div>
-</div></div>
-
-							
-		</div>
-
+</div></div></div>
    <div class="circle2" >
  <div class="icon">
  <img src="assets/icons/flashon.png" alt="">
  </div>
-							</div>
-							
-		</div>
-						</div>
-			
-		
-</section>';
-$c['Duplicate of KRU'] = '<!--////////// services SECTION //////////-->
-<section id="section-9" class="services page">
-		   <div id="services" class="full-width">
-		        <div class="container">
-			        <div class="row">
-			
-					<div class="services-area">
-						<div class="row">
-							<div class="span4 wow fadeInUp " data-wow-duration="1s" data-wow-delay=".3s"><div class="circle">
-							  <div class="icon">
-								  <img src="assets/icons/settings3.png" alt="">
-							  </div>
-							</div>
-								
-<div class="span4 wow fadeInUp " data-wow-duration="1s" data-wow-delay=".5s">
-      
- 
-<div class="circle1">
- <div class="icon">
- <img src="assets/icons/arrow12.png" alt="">
- </div>
-</div>
-</div>
-							
-		</div>
-<div class="span4 wow fadeInUp " data-wow-duration="1s" data-wow-delay=".7s">
-
-   <div class="circle2" >
- <div class="icon">
- <img src="assets/icons/flashon.png" alt="">
- </div>
-							</div>
-							
-		</div>
-						</div>
-					</div>
-				</div>
-			</div>
+							</div>						
+		</div>										
 </section>';
 $s = &$this->snippetCache;
 $s['AjaxSearch'] = 'return require MODX_BASE_PATH.\'assets/snippets/ajaxSearch/snippet.ajaxSearch.php\';';
@@ -1194,8 +1181,7 @@ return $output;
 
 return reflect($targetID, $showItems, $groupByYears, $resource, $dateSource, $dateFormat, $ditto, $templates,$id,$start,$yearSortDir,$monthSortDir);';
 $s['UltimateParent'] = 'return require MODX_BASE_PATH.\'assets/snippets/ultimateparent/snippet.ultimateparent.php\';';
-$s['Wayfinder'] = 'return require MODX_BASE_PATH.\'assets/snippets/wayfinder/snippet.wayfinder.php\';
-';
+$s['Wayfinder'] = 'return require MODX_BASE_PATH.\'assets/snippets/wayfinder/snippet.wayfinder.php\';';
 $s['WebChangePwd'] = '# Created By Raymond Irving April, 2005
 #::::::::::::::::::::::::::::::::::::::::
 # Params:	
