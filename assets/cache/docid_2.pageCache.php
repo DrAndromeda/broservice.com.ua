@@ -1,37 +1,44 @@
-<?php die('Unauthorized access.'); ?>a:44:{s:2:"id";s:1:"2";s:4:"type";s:8:"document";s:11:"contentType";s:9:"text/html";s:9:"pagetitle";s:29:"Ремонт скутеров";s:9:"longtitle";s:29:"Ремонт скутеров";s:11:"description";s:0:"";s:5:"alias";s:15:"remont-skuterov";s:15:"link_attributes";s:0:"";s:9:"published";s:1:"1";s:8:"pub_date";s:1:"0";s:10:"unpub_date";s:1:"0";s:6:"parent";s:1:"0";s:8:"isfolder";s:1:"0";s:9:"introtext";s:0:"";s:7:"content";s:7311:"<p align="justify"><img src="assets/images/remont_skyterov_moto.jpg" width="445" height="230" style="margin: 5px 17px; float: left;" class="justifyleft" alt="ремонт скутеров г Бровары" title="ремонт скутеров Бровары и мототехники" />Сервисный цент по ремонту скутеров, мопедов, мотороллеров, квадроциклов, мотоциклов расположен в городе Бровары. Производим любые виды технических работ по ремонту и обслуживанию Вашей техники!&nbsp;<br /><br />Возможен выездной&nbsp;<strong>ремонт скутеров</strong>&nbsp;и прочей мототехники в г. Киев, а так же срочный выезд за город в случае поломки и экстренной необходимости в починке или эвакуации вашего транспорта.&nbsp;При заказе любых услуг мастерской вы получаете&nbsp;гарантиное и послегарантийное обслуживание вашей техники (скутера, мопеда, мотоцикла и прочей мототехники)!</p>
+<?php die('Unauthorized access.'); ?>a:44:{s:2:"id";s:1:"2";s:4:"type";s:8:"document";s:11:"contentType";s:9:"text/html";s:9:"pagetitle";s:29:"Ремонт скутеров";s:9:"longtitle";s:29:"Ремонт скутеров";s:11:"description";s:0:"";s:5:"alias";s:15:"remont-skuterov";s:15:"link_attributes";s:0:"";s:9:"published";s:1:"1";s:8:"pub_date";s:1:"0";s:10:"unpub_date";s:1:"0";s:6:"parent";s:1:"0";s:8:"isfolder";s:1:"1";s:9:"introtext";s:0:"";s:7:"content";s:7760:"<p align="justify"><img src="assets/images/remont_mopeda.jpg" width="876" height="356" style="vertical-align: middle; display: block; margin-left: auto; margin-right: auto;" /></p>
+<p align="justify">Сервисный цент по ремонту скутеров, мопедов, мотороллеров, квадроциклов, мотоциклов расположен в городе Бровары. Производим любые виды технических работ по ремонту и обслуживанию Вашей техники! Предоставляем выездной&nbsp;<strong>ремонт скутеров</strong>&nbsp;и прочей мототехники в г. Киев и Бровары, а так же срочный выезд за город в случае поломки и экстренной необходимости в починке или эвакуации вашего транспорта.&nbsp;При заказе любых услуг мастерской вы получаете&nbsp;гарантиное и послегарантийное обслуживание вашей техники (скутера, мопеда, мотоцикла и прочей мототехники)!</p>
 <h2>Срочный ремонт скутеров и мототехники в Киев и Броварах</h2>
 <p align="justify">Дороги Киевской области, в частности Киева и Броваров оставляют желать лучшего, по этой причине ремонт и диагностику мототехники важно совершать вовремя, а лучше заранее. Теперь для этого вы всегда можете обратиться в мастерскую Broservice находящуюся&nbsp;в г. Бровары.&nbsp;Свою работу мы выполняем вовремя, а главное для вашей безопасности!&nbsp;После получения заказа, мастер по ремонту в городе Бровары качественно и оперативно проведет диагностику вашей техники, и в случае необходимости замены деталей, мы подберем для вас хорошего производителя по доступной цене.&nbsp;Регулярное сервисное обслуживание, своевременный ремонт, а главное использование качественных запчастей и масел значительно повышают надежность и долговечность работы вашего мото.<br /><img src="assets/images/broservice.jpg" width="555" height="127" style="vertical-align: middle; margin: 5px auto; display: block;" alt="ремонт мототехники Бросервис" title="ремонт мотоциклов Бросервис" />Ремонтная мастерская Broservice дает гарантию на проведенные работы и детали купленные в мастерской по ремонту скутеров и мототехники. Сервисное обслуживание и диагностика мототранспорта это принципы бережного ухода за мото которые стоит регулярно выполнять для исправной работы двигательной системы, и безопасности Вашей езды!&nbsp;</p>
 <h3 align="justify">Ремонт скутеров и остальные виды ремонтрых работ которые выполняет Бросервис</h3>
-<p align="justify"><img src="assets/images/remont_motociklov.jpg" width="454" height="303" style="float: left; margin: 5px 16px;" alt="ремонт мотоциклов Бровары" title="ремонт мотоциклов в г Бровары от Бросервис" />- Техническое обслуживание скутеров, мотоциклов, <br />мотороллеров, квадроциклов, мопедов<br />- Диагностика техники<br /><span style="font-size: 12px; line-height: 1.5; text-align: left;">- Арматурные работы<br /></span>- Замена изнашивающихся деталей<br /><span style="font-size: 12px; line-height: 1.5; text-align: left;">- Замена деталей тормозной системы<br /></span>- Замена электрооборудования<br />- Ремонт/замена подвески<br />- Хромирование деталей<br />- Перекрасивание и апгрей&nbsp;<br />- Тюнинг и обклейка<br />- Р<span>емонт | замена цилиндро - поршневой группы<br /><span>- Ремонт | замена коленвала</span><br /><span>- Замена коренных подшипников</span><br /></span></p>
+<p align="justify"><img src="assets/images/remont_motociklov.jpg" width="454" height="303" style="float: left; margin: 5px 16px;" alt="ремонт мотоциклов Бровары" title="ремонт мотоциклов в г Бровары от Бросервис" />- Техническое обслуживание скутеров, мотоциклов, <br />мотороллеров, квадроциклов, мопедов<br />- Диагностика техники<br /><span style="font-size: 12px; line-height: 1.5; text-align: left;">- Арматурные работы<br /></span>- Замена изнашивающихся деталей<br /><span style="font-size: 12px; line-height: 1.5; text-align: left;">- Замена деталей тормозной системы<br /></span>- Замена электрооборудования<br />- Ремонт/замена подвески<br />- Хромирование деталей<br />- Перекрасивание и апгрей&nbsp;<br />- Тюнинг и обклейка<br />- Ремонт | замена цилиндро - п<a href="remont_kvadrociklov_i_moto.html" title="Операвтиный ремонт мото и квадроциклов в Броварах Киеве">о</a>ршневой группы<br /><span>- Ремонт | замена коленвала</span><br /><span>- Замена коренных подшипников</span></p>
 <p align="justify"><span>В своей работе мы придерживаемся главного правила - Качество залог долговечности и исправности механизмов! Вы всегда можете быть уверенны в ремонте Бросервис!&nbsp;Задать вопрос или проконсультироваться по поводу ремонта скутера, мотоцикла, квадроцикла, мотороллера, мопеда нужно по телефону&nbsp;093-270-46-96.&nbsp;<span>Обращайтесь, и мы обязательно приведем в порядок вашу технику!&nbsp;</span></span></p>
 <hr />
-<p align="justify">{{KRU}}
-<table border="0" style="width: 905px; height: 70px;">
+<p style="text-align: center;">{{KRU}}
+<table border="0" style="width: 883px; height: 66px;">
 <tbody>
 <tr>
-<td style="font-size: 18px; font-weight: bolder; text-align: center;">
-<p class="justifyleft" style="font-size: 18px; font-weight: bolder; text-align: center;">&nbsp;High Performance</p>
+<td>
+<p class="justifyleft"><a href="remont_motociklov_brovary_i_kiev.html" class="link-3" title="Ремонт мотоцикло в г Бровары" style="font-size: 20px; font-weight: bolder;">Ремонт мотоциклов</a></p>
 </td>
-<td style="font-size: 18px; font-weight: bolder; text-align: center;">
-<p style="font-size: 18px; font-weight: bolder; text-align: center;">High Performane</p>
+<td>
+<p style="text-align: center;"><a href="remont_mopedov_v_kiev_i_brovary_ezhednevno.html" class="link-3" style="font-size: 20px; font-weight: bolder;" title="Оперативный ремонт мопеда Киев а так же Бровары">Ремонт мопедов</a></p>
 </td>
-<td style="font-size: 18px; font-weight: bolder; text-align: center;">
-<p style="font-size: 18px; font-weight: bolder; text-align: center;">High Performance</p>
+<td>
+<p style="text-align: center;">&nbsp; &nbsp; &nbsp;&nbsp;</p>
+</td>
+<td>
+<p class="justifyleft">&nbsp; <a href="remont_kvadrociklov_i_moto.html" class="link-3" style="font-size: 20px; font-weight: bolder;" title="Оперативный ремонт квадроциклов и мото в Киеве Броварах">Ремонт квадроциклов</a></p>
 </td>
 </tr>
-<tr>
-<td style="text-align: center;">
-<p class="justifyleft">Тюнинг, замена деталей,&nbsp;<span>Тюнинг, замена деталей,&nbsp;</span><span>Тюнинг, замена деталей,</span><span><br /></span></p>
+<tr valign="top">
+<td>
+<p><span>Тюнинг, замена деталей,&nbsp;Тюнинг, замена деталей,&nbsp;Тюнинг, замена деталей,</span></p>
 </td>
 <td style="text-align: center;">
 <p><span>Тюнинг, замена деталей,&nbsp;</span><span>Тюнинг, замена деталей,&nbsp;</span><span>Тюнинг, замена деталей,&nbsp;</span></p>
+</td>
+<td style="text-align: center;">
+<p></p>
 </td>
 <td style="text-align: center;">
 <p><span>Тюнинг, замена деталей,&nbsp;</span><span>Тюнинг, замена деталей,&nbsp;</span><span>Тюнинг, замена деталей,&nbsp;</span></p>
 </td>
 </tr>
 </tbody>
-</table>";s:8:"richtext";s:1:"1";s:8:"template";s:1:"9";s:9:"menuindex";s:1:"2";s:10:"searchable";s:1:"1";s:9:"cacheable";s:1:"1";s:9:"createdby";s:1:"1";s:9:"createdon";s:10:"1423136496";s:8:"editedby";s:1:"1";s:8:"editedon";s:10:"1424878280";s:7:"deleted";s:1:"0";s:9:"deletedon";s:1:"0";s:9:"deletedby";s:1:"0";s:11:"publishedon";s:10:"1423936108";s:11:"publishedby";s:1:"1";s:9:"menutitle";s:29:"Ремонт скутеров";s:7:"donthit";s:1:"0";s:11:"haskeywords";s:1:"0";s:11:"hasmetatags";s:1:"0";s:10:"privateweb";s:1:"0";s:10:"privatemgr";s:1:"0";s:13:"content_dispo";s:1:"0";s:8:"hidemenu";s:1:"0";s:13:"alias_visible";s:1:"1";s:8:"keywords";a:5:{i:0;s:8:"keywords";i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";i:4;s:4:"text";}s:4:"desc";a:5:{i:0;s:4:"desc";i:1;s:6:"ывм";i:2;s:0:"";i:3;s:0:"";i:4;s:8:"textarea";}s:4:"keyw";a:5:{i:0;s:4:"keyw";i:1;s:178:"ремонт скутеров, ремонт скутеров бровары, ремонт мотоциклов, ремонт мопедов, ремонт квадроциклов";i:2;s:0:"";i:3;s:0:"";i:4;s:4:"text";}s:7:"noIndex";a:5:{i:0;s:7:"noIndex";i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";i:4;s:8:"checkbox";}s:4:"titl";a:5:{i:0;s:4:"titl";i:1;s:68:"Ремонт скутеров Бровары и мотоциклов";i:2;s:0:"";i:3;s:0:"";i:4;s:4:"text";}s:17:"__MODxDocGroups__";s:0:"";}<!--__MODxCacheSpliter__--><!DOCTYPE html>
+</table>";s:8:"richtext";s:1:"1";s:8:"template";s:1:"9";s:9:"menuindex";s:1:"2";s:10:"searchable";s:1:"1";s:9:"cacheable";s:1:"1";s:9:"createdby";s:1:"1";s:9:"createdon";s:10:"1423136496";s:8:"editedby";s:1:"1";s:8:"editedon";s:10:"1425670430";s:7:"deleted";s:1:"0";s:9:"deletedon";s:1:"0";s:9:"deletedby";s:1:"0";s:11:"publishedon";s:10:"1423936108";s:11:"publishedby";s:1:"1";s:9:"menutitle";s:29:"Ремонт скутеров";s:7:"donthit";s:1:"0";s:11:"haskeywords";s:1:"0";s:11:"hasmetatags";s:1:"0";s:10:"privateweb";s:1:"0";s:10:"privatemgr";s:1:"0";s:13:"content_dispo";s:1:"0";s:8:"hidemenu";s:1:"0";s:13:"alias_visible";s:1:"1";s:8:"keywords";a:5:{i:0;s:8:"keywords";i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";i:4;s:4:"text";}s:4:"desc";a:5:{i:0;s:4:"desc";i:1;s:6:"ывм";i:2;s:0:"";i:3;s:0:"";i:4;s:8:"textarea";}s:4:"keyw";a:5:{i:0;s:4:"keyw";i:1;s:178:"ремонт скутеров, ремонт скутеров бровары, ремонт мотоциклов, ремонт мопедов, ремонт квадроциклов";i:2;s:0:"";i:3;s:0:"";i:4;s:4:"text";}s:7:"noIndex";a:5:{i:0;s:7:"noIndex";i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";i:4;s:8:"checkbox";}s:4:"titl";a:5:{i:0;s:4:"titl";i:1;s:68:"Ремонт скутеров Бровары и мотоциклов";i:2;s:0:"";i:3;s:0:"";i:4;s:4:"text";}s:17:"__MODxDocGroups__";s:0:"";}<!--__MODxCacheSpliter__--><!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -121,14 +128,15 @@
 			<br><br>
 			
 			
-			<p align="justify"><img src="assets/images/remont_skyterov_moto.jpg" width="445" height="230" style="margin: 5px 17px; float: left;" class="justifyleft" alt="ремонт скутеров г Бровары" title="ремонт скутеров Бровары и мототехники" />Сервисный цент по ремонту скутеров, мопедов, мотороллеров, квадроциклов, мотоциклов расположен в городе Бровары. Производим любые виды технических работ по ремонту и обслуживанию Вашей техники!&nbsp;<br /><br />Возможен выездной&nbsp;<strong>ремонт скутеров</strong>&nbsp;и прочей мототехники в г. Киев, а так же срочный выезд за город в случае поломки и экстренной необходимости в починке или эвакуации вашего транспорта.&nbsp;При заказе любых услуг мастерской вы получаете&nbsp;гарантиное и послегарантийное обслуживание вашей техники (скутера, мопеда, мотоцикла и прочей мототехники)!</p>
+			<p align="justify"><img src="assets/images/remont_mopeda.jpg" width="876" height="356" style="vertical-align: middle; display: block; margin-left: auto; margin-right: auto;" /></p>
+<p align="justify">Сервисный цент по ремонту скутеров, мопедов, мотороллеров, квадроциклов, мотоциклов расположен в городе Бровары. Производим любые виды технических работ по ремонту и обслуживанию Вашей техники! Предоставляем выездной&nbsp;<strong>ремонт скутеров</strong>&nbsp;и прочей мототехники в г. Киев и Бровары, а так же срочный выезд за город в случае поломки и экстренной необходимости в починке или эвакуации вашего транспорта.&nbsp;При заказе любых услуг мастерской вы получаете&nbsp;гарантиное и послегарантийное обслуживание вашей техники (скутера, мопеда, мотоцикла и прочей мототехники)!</p>
 <h2>Срочный ремонт скутеров и мототехники в Киев и Броварах</h2>
 <p align="justify">Дороги Киевской области, в частности Киева и Броваров оставляют желать лучшего, по этой причине ремонт и диагностику мототехники важно совершать вовремя, а лучше заранее. Теперь для этого вы всегда можете обратиться в мастерскую Broservice находящуюся&nbsp;в г. Бровары.&nbsp;Свою работу мы выполняем вовремя, а главное для вашей безопасности!&nbsp;После получения заказа, мастер по ремонту в городе Бровары качественно и оперативно проведет диагностику вашей техники, и в случае необходимости замены деталей, мы подберем для вас хорошего производителя по доступной цене.&nbsp;Регулярное сервисное обслуживание, своевременный ремонт, а главное использование качественных запчастей и масел значительно повышают надежность и долговечность работы вашего мото.<br /><img src="assets/images/broservice.jpg" width="555" height="127" style="vertical-align: middle; margin: 5px auto; display: block;" alt="ремонт мототехники Бросервис" title="ремонт мотоциклов Бросервис" />Ремонтная мастерская Broservice дает гарантию на проведенные работы и детали купленные в мастерской по ремонту скутеров и мототехники. Сервисное обслуживание и диагностика мототранспорта это принципы бережного ухода за мото которые стоит регулярно выполнять для исправной работы двигательной системы, и безопасности Вашей езды!&nbsp;</p>
 <h3 align="justify">Ремонт скутеров и остальные виды ремонтрых работ которые выполняет Бросервис</h3>
-<p align="justify"><img src="assets/images/remont_motociklov.jpg" width="454" height="303" style="float: left; margin: 5px 16px;" alt="ремонт мотоциклов Бровары" title="ремонт мотоциклов в г Бровары от Бросервис" />- Техническое обслуживание скутеров, мотоциклов, <br />мотороллеров, квадроциклов, мопедов<br />- Диагностика техники<br /><span style="font-size: 12px; line-height: 1.5; text-align: left;">- Арматурные работы<br /></span>- Замена изнашивающихся деталей<br /><span style="font-size: 12px; line-height: 1.5; text-align: left;">- Замена деталей тормозной системы<br /></span>- Замена электрооборудования<br />- Ремонт/замена подвески<br />- Хромирование деталей<br />- Перекрасивание и апгрей&nbsp;<br />- Тюнинг и обклейка<br />- Р<span>емонт | замена цилиндро - поршневой группы<br /><span>- Ремонт | замена коленвала</span><br /><span>- Замена коренных подшипников</span><br /></span></p>
+<p align="justify"><img src="assets/images/remont_motociklov.jpg" width="454" height="303" style="float: left; margin: 5px 16px;" alt="ремонт мотоциклов Бровары" title="ремонт мотоциклов в г Бровары от Бросервис" />- Техническое обслуживание скутеров, мотоциклов, <br />мотороллеров, квадроциклов, мопедов<br />- Диагностика техники<br /><span style="font-size: 12px; line-height: 1.5; text-align: left;">- Арматурные работы<br /></span>- Замена изнашивающихся деталей<br /><span style="font-size: 12px; line-height: 1.5; text-align: left;">- Замена деталей тормозной системы<br /></span>- Замена электрооборудования<br />- Ремонт/замена подвески<br />- Хромирование деталей<br />- Перекрасивание и апгрей&nbsp;<br />- Тюнинг и обклейка<br />- Ремонт | замена цилиндро - п<a href="remont_kvadrociklov_i_moto.html" title="Операвтиный ремонт мото и квадроциклов в Броварах Киеве">о</a>ршневой группы<br /><span>- Ремонт | замена коленвала</span><br /><span>- Замена коренных подшипников</span></p>
 <p align="justify"><span>В своей работе мы придерживаемся главного правила - Качество залог долговечности и исправности механизмов! Вы всегда можете быть уверенны в ремонте Бросервис!&nbsp;Задать вопрос или проконсультироваться по поводу ремонта скутера, мотоцикла, квадроцикла, мотороллера, мопеда нужно по телефону&nbsp;093-270-46-96.&nbsp;<span>Обращайтесь, и мы обязательно приведем в порядок вашу технику!&nbsp;</span></span></p>
 <hr />
-<p align="justify"><!--////////// services SECTION //////////-->
+<p style="text-align: center;"><!--////////// services SECTION //////////-->
 			<section id="section-9" class="services page">
 		   <div id="services" class="full-width">
 			        <div class="row">
@@ -150,25 +158,31 @@
 							</div>						
 		</div>										
 </section>
-<table border="0" style="width: 905px; height: 70px;">
+<table border="0" style="width: 883px; height: 66px;">
 <tbody>
 <tr>
-<td style="font-size: 18px; font-weight: bolder; text-align: center;">
-<p class="justifyleft" style="font-size: 18px; font-weight: bolder; text-align: center;">&nbsp;High Performance</p>
+<td>
+<p class="justifyleft"><a href="remont_motociklov_brovary_i_kiev.html" class="link-3" title="Ремонт мотоцикло в г Бровары" style="font-size: 20px; font-weight: bolder;">Ремонт мотоциклов</a></p>
 </td>
-<td style="font-size: 18px; font-weight: bolder; text-align: center;">
-<p style="font-size: 18px; font-weight: bolder; text-align: center;">High Performane</p>
+<td>
+<p style="text-align: center;"><a href="remont_mopedov_v_kiev_i_brovary_ezhednevno.html" class="link-3" style="font-size: 20px; font-weight: bolder;" title="Оперативный ремонт мопеда Киев а так же Бровары">Ремонт мопедов</a></p>
 </td>
-<td style="font-size: 18px; font-weight: bolder; text-align: center;">
-<p style="font-size: 18px; font-weight: bolder; text-align: center;">High Performance</p>
+<td>
+<p style="text-align: center;">&nbsp; &nbsp; &nbsp;&nbsp;</p>
+</td>
+<td>
+<p class="justifyleft">&nbsp; <a href="remont_kvadrociklov_i_moto.html" class="link-3" style="font-size: 20px; font-weight: bolder;" title="Оперативный ремонт квадроциклов и мото в Киеве Броварах">Ремонт квадроциклов</a></p>
 </td>
 </tr>
-<tr>
-<td style="text-align: center;">
-<p class="justifyleft">Тюнинг, замена деталей,&nbsp;<span>Тюнинг, замена деталей,&nbsp;</span><span>Тюнинг, замена деталей,</span><span><br /></span></p>
+<tr valign="top">
+<td>
+<p><span>Тюнинг, замена деталей,&nbsp;Тюнинг, замена деталей,&nbsp;Тюнинг, замена деталей,</span></p>
 </td>
 <td style="text-align: center;">
 <p><span>Тюнинг, замена деталей,&nbsp;</span><span>Тюнинг, замена деталей,&nbsp;</span><span>Тюнинг, замена деталей,&nbsp;</span></p>
+</td>
+<td style="text-align: center;">
+<p></p>
 </td>
 <td style="text-align: center;">
 <p><span>Тюнинг, замена деталей,&nbsp;</span><span>Тюнинг, замена деталей,&nbsp;</span><span>Тюнинг, замена деталей,&nbsp;</span></p>
