@@ -147,13 +147,13 @@ $d['remont_velosipedov_v_g_brovary'] = 3;
 $a[3] = array('id' => 3, 'alias' => 'remont_velosipedov_v_g_brovary', 'path' => '', 'parent' => 0, 'isfolder' => 1);
 $m[] = array('0' => '3');
 $d['remont_noutbukov_i_kompyuterov_g_brovary'] = 10;
-$a[10] = array('id' => 10, 'alias' => 'remont_noutbukov_i_kompyuterov_g_brovary', 'path' => '', 'parent' => 0, 'isfolder' => 0);
+$a[10] = array('id' => 10, 'alias' => 'remont_noutbukov_i_kompyuterov_g_brovary', 'path' => '', 'parent' => 0, 'isfolder' => 1);
 $m[] = array('0' => '10');
 $d['santehnik_brovary'] = 16;
 $a[16] = array('id' => 16, 'alias' => 'santehnik_brovary', 'path' => '', 'parent' => 0, 'isfolder' => 1);
 $m[] = array('0' => '16');
 $d['prokat-volosipedov-brovary'] = 11;
-$a[11] = array('id' => 11, 'alias' => 'prokat-volosipedov-brovary', 'path' => '', 'parent' => 0, 'isfolder' => 0);
+$a[11] = array('id' => 11, 'alias' => 'prokat-volosipedov-brovary', 'path' => '', 'parent' => 0, 'isfolder' => 1);
 $m[] = array('0' => '11');
 $d['prokat_motociklov_i_skuterov_brovary_kiev'] = 12;
 $a[12] = array('id' => 12, 'alias' => 'prokat_motociklov_i_skuterov_brovary_kiev', 'path' => '', 'parent' => 0, 'isfolder' => 1);
@@ -191,6 +191,24 @@ $m[] = array('3' => '29');
 $d['zapchasti_na_velosiped'] = 31;
 $a[31] = array('id' => 31, 'alias' => 'zapchasti_na_velosiped', 'path' => '', 'parent' => 3, 'isfolder' => 0);
 $m[] = array('3' => '31');
+$d['skoraya_kompyuternaya_pomoshh_kiev_brovary_na_domu'] = 34;
+$a[34] = array('id' => 34, 'alias' => 'skoraya_kompyuternaya_pomoshh_kiev_brovary_na_domu', 'path' => '', 'parent' => 10, 'isfolder' => 0);
+$m[] = array('10' => '34');
+$d['remont_i_zamena_matricy_noutbuka_kiev_brovary'] = 33;
+$a[33] = array('id' => 33, 'alias' => 'remont_i_zamena_matricy_noutbuka_kiev_brovary', 'path' => '', 'parent' => 10, 'isfolder' => 0);
+$m[] = array('10' => '33');
+$d['ustanovka_windows_kiev_i_brovary'] = 32;
+$a[32] = array('id' => 32, 'alias' => 'ustanovka_windows_kiev_i_brovary', 'path' => '', 'parent' => 10, 'isfolder' => 0);
+$m[] = array('10' => '32');
+$d['prokat_bagazhnika_i_detskogo_velokresla'] = 38;
+$a[38] = array('id' => 38, 'alias' => 'prokat_bagazhnika_i_detskogo_velokresla', 'path' => '', 'parent' => 11, 'isfolder' => 0);
+$m[] = array('11' => '38');
+$d['prokat_gopro_kiev_brovary'] = 37;
+$a[37] = array('id' => 37, 'alias' => 'prokat_gopro_kiev_brovary', 'path' => '', 'parent' => 11, 'isfolder' => 0);
+$m[] = array('11' => '37');
+$d['prokat_velosumok_i_veloaksessuarov'] = 39;
+$a[39] = array('id' => 39, 'alias' => 'prokat_velosumok_i_veloaksessuarov', 'path' => '', 'parent' => 11, 'isfolder' => 0);
+$m[] = array('11' => '39');
 $d['prokat_skuterov_kiev_i_brovary'] = 23;
 $a[23] = array('id' => 23, 'alias' => 'prokat_skuterov_kiev_i_brovary', 'path' => '', 'parent' => 12, 'isfolder' => 0);
 $m[] = array('12' => '23');
@@ -203,6 +221,12 @@ $m[] = array('12' => '22');
 $d['elektrik_brovary'] = 24;
 $a[24] = array('id' => 24, 'alias' => 'elektrik_brovary', 'path' => '', 'parent' => 16, 'isfolder' => 0);
 $m[] = array('16' => '24');
+$d['remont_holodilnikov_brovary'] = 35;
+$a[35] = array('id' => 35, 'alias' => 'remont_holodilnikov_brovary', 'path' => '', 'parent' => 16, 'isfolder' => 0);
+$m[] = array('16' => '35');
+$d['remont_stiralnyh_mashin_brovary'] = 36;
+$a[36] = array('id' => 36, 'alias' => 'remont_stiralnyh_mashin_brovary', 'path' => '', 'parent' => 16, 'isfolder' => 0);
+$m[] = array('16' => '36');
 $c = &$this->contentTypes;
 $c = &$this->chunkCache;
 $c['mm_rules'] = '// more example rules are in assets/plugins/managermanager/example_mm_rules.inc.php
@@ -273,7 +297,7 @@ $c['HEAD'] = '<!DOCTYPE html>
 		<meta name="keywords" content="[*keyw*]"/>
 <meta name="description" content="[*desc*]"/>
     <link href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css" rel="stylesheet" type="text/css" media="screen" >
-    <link href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css" rel="stylesheet" type="text/css" media="screen">
+    
 		<script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery-1.7.min.js"></script>
 		<script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery.easing.1.3.js"></script>
 		<script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/FF-cash.js"></script>
@@ -298,7 +322,7 @@ $c['HEADER'] = '<header>
 			</div>
 					
 				
-		  <div class="slogan">Лучший сервис в Броварах! <br> <img title="Viber" alt="Viber" class="roo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.svg" onerror="this.onerror=null; this.src=\'assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.png\'"> тел. 093-270-46-96 </div>
+		  <div class="slogan">Лучший сервис в Броварах! <br> <img title="Принимаем звонки c Viber " alt="Viber" class="roo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.svg" onerror="this.onerror=null; this.src=\'assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.png\'"> тел. 093-270-46-96 </div>
 		  
           <div class="tooltips">
 			  <a href="#"><img class="rooo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-1.svg" alt=""></a><a href="#"><img class="roo1" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-2.svg" alt=""></a><a href="#"><img class="roo2" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-3.svg" alt=""></a>
@@ -1434,18 +1458,18 @@ $e['OnBeforeSnipFormSave'] = array('FileSource');
 $e['OnChunkFormRender'] = array('CodeMirror');
 $e['OnDocDuplicate'] = array('ManagerManager');
 $e['OnDocFormPrerender'] = array('ManagerManager');
-$e['OnDocFormRender'] = array('CodeMirror','ManagerManager');
+$e['OnDocFormRender'] = array('ManagerManager','CodeMirror');
 $e['OnDocFormSave'] = array('ManagerManager');
 $e['OnInterfaceSettingsRender'] = array('TinyMCE Rich Text Editor');
 $e['OnManagerAuthentication'] = array('Forgot Manager Login');
 $e['OnManagerLoginFormRender'] = array('Forgot Manager Login');
 $e['OnModFormRender'] = array('CodeMirror');
 $e['OnPluginFormPrerender'] = array('FileSource');
-$e['OnPluginFormRender'] = array('ManagerManager','CodeMirror','FileSource');
+$e['OnPluginFormRender'] = array('CodeMirror','FileSource','ManagerManager');
 $e['OnRichTextEditorInit'] = array('TinyMCE Rich Text Editor');
 $e['OnRichTextEditorRegister'] = array('TinyMCE Rich Text Editor');
 $e['OnSnipFormPrerender'] = array('FileSource');
-$e['OnSnipFormRender'] = array('FileSource','CodeMirror');
+$e['OnSnipFormRender'] = array('CodeMirror','FileSource');
 $e['OnStripAlias'] = array('TransAlias');
 $e['OnTempFormRender'] = array('CodeMirror');
 $e['OnTVFormRender'] = array('ManagerManager');

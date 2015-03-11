@@ -43,7 +43,7 @@
 		<meta name="keywords" content="прокат мотоциклов, прокат мотоциклов Киев, прокат мотоциклов Бровары, аренда мотоцикла, "/>
 <meta name="description" content="Аренда и прокат мотоциклов, мопедов, мотороллеров, скутеров и квадроциклов в г Бровары для крутой езды в Киев и по Киевской области. Качественная мототехника по доступным ценам"/>
     <link href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css" rel="stylesheet" type="text/css" media="screen" >
-    <link href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css" rel="stylesheet" type="text/css" media="screen">
+    
 		<script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery-1.7.min.js"></script>
 		<script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery.easing.1.3.js"></script>
 		<script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/FF-cash.js"></script>
