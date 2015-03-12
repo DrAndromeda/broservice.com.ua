@@ -75,7 +75,7 @@
 			</div>
 					
 				
-<div class="slogan">Лучший сервис в Броварах! <br> <img title="Viber" alt="Viber" class="roo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.svg" onerror="this.onerror=null; this.src='assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.png'"> тел. 093-270-46-96 </div>
+<div class="slogan">Лучший сервис в Броварах! <br> <img title="Принимаем звонки c Viber" alt="Viber" class="roo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.svg" onerror="this.onerror=null; this.src='assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.png'"> тел. 093-270-46-96 </div>
 		  
           <div class="tooltips">
 			  <a href="#"><img class="rooo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-1.svg" alt=""></a><a href="#"><img class="roo1" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-2.svg" alt=""></a><a href="#"><img class="roo2" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-3.svg" alt=""></a>
@@ -187,5 +187,25 @@
 
 	 <a rel="nofollow" href="http://AdFoto.com.ua" class="link" target="_blank">AdFoto.com.ua</a>
 </footer>
+	<script type="text/javascript">
+$(document).ready(function(){
+ 
+$(window).scroll(function(){
+if ($(this).scrollTop() > 100) {
+$('.scrollup').fadeIn();
+} else {
+$('.scrollup').fadeOut();
+}
+});
+ 
+$('.scrollup').click(function(){
+$("html, body").animate({ scrollTop: 0 }, 600);
+return false;
+});
+ 
+});
+</script>
+
+<a href="#" class="scrollup">Наверх</a>
 </body>
 </html>
