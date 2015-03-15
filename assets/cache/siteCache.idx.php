@@ -289,18 +289,17 @@ $c['HEAD'] = '<!DOCTYPE html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=[(modx_charset)]"/>
 <title>[*titl*]</title>
-   
-	<meta name="viewport" content="width=device-width">	
 		
+		<meta name="viewport" content="width=device-width"/>			
     <meta charset="[(modx_charset)]">
 		<base href="[(site_url)]" />
 		<meta name="keywords" content="[*keyw*]"/>
 <meta name="description" content="[*desc*]"/>
-    <link href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css" rel="stylesheet" type="text/css" media="screen" >
+    <link  href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css" rel="stylesheet" type="text/css" media="screen" >
     
-		<script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery-1.7.min.js"></script>
-		<script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery.easing.1.3.js"></script>
-		<script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/FF-cash.js"></script>
+		<script async src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery-1.7.min.js"></script>
+		<script async src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery.easing.1.3.js"></script>
+		<script async src="assets/templates/Free%20Website%20Template%20Security%20Project/js/FF-cash.js"></script>
 	<!--[if lt IE 8]>
        <div style=\' clear: both; text-align:center; position: relative;\'>
          <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -320,7 +319,6 @@ $c['HEADER'] = '<header>
 		  <div class="linkblock" onclick="location.href=\'http://broservice.com.ua/\';"><a><b>Bro</b>Service.com.ua</a>
 				
 			</div>
-					
 				
 		  <div class="slogan">Лучший сервис в Броварах! <br> <img title="Принимаем звонки c Viber " alt="Viber" class="roo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.svg" onerror="this.onerror=null; this.src=\'assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.png\'"> тел. 093-270-46-96 </div>
 		  
@@ -335,10 +333,12 @@ $c['HEADER'] = '<header>
       <div class="wrap main">
 		  
       	[!Ditto? &parents=`1` &tpl=`column_tpl` &tplLast=`column_tpl_last` &randomize=`1` &display=`3`!]
+
         
       </div>
     </div>
-  </header>';
+  </header>
+';
 $c['column_tpl_last'] = '<div class="block-1">
 			<img title="[+pagetitle+]" src="[+column_img+]" alt="[+pagetitle+]"  class="img-radius">
             <div>
@@ -415,7 +415,8 @@ $c['FOOTER'] = '<footer style="color:#ff6c36">
 	<a>Партнеры</a> : <a rel="nofollow" href="http://crystalwater.kiev.ua/" class="link" target="_blank">crystalwater.kiev.ua</a>
 
 	 <a rel="nofollow" href="http://AdFoto.com.ua" class="link" target="_blank">AdFoto.com.ua</a>
-</footer>';
+</footer>
+';
 $c['HEAD_PRODUCTS'] = '<!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -1465,7 +1466,7 @@ $e['OnManagerAuthentication'] = array('Forgot Manager Login');
 $e['OnManagerLoginFormRender'] = array('Forgot Manager Login');
 $e['OnModFormRender'] = array('CodeMirror');
 $e['OnPluginFormPrerender'] = array('FileSource');
-$e['OnPluginFormRender'] = array('CodeMirror','FileSource','ManagerManager');
+$e['OnPluginFormRender'] = array('FileSource','ManagerManager','CodeMirror');
 $e['OnRichTextEditorInit'] = array('TinyMCE Rich Text Editor');
 $e['OnRichTextEditorRegister'] = array('TinyMCE Rich Text Editor');
 $e['OnSnipFormPrerender'] = array('FileSource');

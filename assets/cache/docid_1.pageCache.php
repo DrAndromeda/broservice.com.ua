@@ -41,18 +41,17 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <title>Сервисный центр Бровары делает ремонт велосипедов и скутеров а также прокат  BroService.com.ua </title>
-   
-	<meta name="viewport" content="width=device-width">	
 		
+		<meta name="viewport" content="width=device-width"/>			
     <meta charset="UTF-8">
 		<base href="http://broservice.com.ua/" />
 		<meta name="keywords" content="сервисный центр Бровары, сервисный центр в Броварах, ремонт Бровары"/>
 <meta name="description" content=""/>
-    <link href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css" rel="stylesheet" type="text/css" media="screen" >
+    <link  href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css" rel="stylesheet" type="text/css" media="screen" >
     
-		<script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery-1.7.min.js"></script>
-		<script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery.easing.1.3.js"></script>
-		<script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/FF-cash.js"></script>
+		<script async src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery-1.7.min.js"></script>
+		<script async src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery.easing.1.3.js"></script>
+		<script async src="assets/templates/Free%20Website%20Template%20Security%20Project/js/FF-cash.js"></script>
 	<!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
          <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -73,7 +72,6 @@
 		  <div class="linkblock" onclick="location.href='http://broservice.com.ua/';"><a><b>Bro</b>Service.com.ua</a>
 				
 			</div>
-					
 				
 		  <div class="slogan">Лучший сервис в Броварах! <br> <img title="Принимаем звонки c Viber " alt="Viber" class="roo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.svg" onerror="this.onerror=null; this.src='assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.png'"> тел. 093-270-46-96 </div>
 		  
@@ -111,11 +109,12 @@
       <div class="wrap main">
 		  
       	[!Ditto? &parents=`1` &tpl=`column_tpl` &tplLast=`column_tpl_last` &randomize=`1` &display=`3`!]
+
         
       </div>
     </div>
   </header>
-	
+
 	<section id="content" class="content-subpages">
       <div>
       	<div class="wrap">
@@ -172,6 +171,7 @@
 
 	 <a rel="nofollow" href="http://AdFoto.com.ua" class="link" target="_blank">AdFoto.com.ua</a>
 </footer>
+
 <!--==============================footer=================================-->
   	<script type="text/javascript">
 $(document).ready(function(){
