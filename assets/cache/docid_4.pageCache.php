@@ -46,7 +46,7 @@
 		<meta name="keywords" content="Контакты "/>
 <meta name="description" content=""/>
     <link href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css" rel="stylesheet" type="text/css" media="screen" >
-    <link href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css" rel="stylesheet" type="text/css" media="screen">
+    
 		<script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery-1.7.min.js"></script>
 		<script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery.easing.1.3.js"></script>
 		<script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/FF-cash.js"></script>
@@ -78,7 +78,7 @@
 			</div>
 					
 				
-<div class="slogan">Лучший сервис в Броварах! <br> <img title="Viber" alt="Viber" class="roo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.svg" onerror="this.onerror=null; this.src='assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.png'"> тел. 093-270-46-96 </div>
+<div class="slogan">Лучший сервис в Броварах! <br> <img title="Принимаем звонки c Viber" alt="Viber" class="roo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.svg" onerror="this.onerror=null; this.src='assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.png'"> тел. 093-270-46-96 </div>
 		  
           <div class="tooltips">
 			  <a href="#"><img class="rooo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-1.svg" alt=""></a><a href="#"><img class="roo1" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-2.svg" alt=""></a><a href="#"><img class="roo2" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-3.svg" alt=""></a>

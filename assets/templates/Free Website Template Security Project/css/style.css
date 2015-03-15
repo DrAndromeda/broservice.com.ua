@@ -306,3 +306,9 @@ text-indent:-9999px;
 
 /*.slogan:hover {
     font-weight: bold;*/
+
+
+/*Выравнивание по ширине*/
+.justifyfull {
+	text-align: justify;
+}
