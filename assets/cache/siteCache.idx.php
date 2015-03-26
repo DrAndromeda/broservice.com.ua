@@ -9,7 +9,7 @@ $c['manager_language'] = "russian-UTF8";
 $c['modx_charset'] = "UTF-8";
 $c['site_name'] = "BroService.com.ua ";
 $c['site_start'] = "1";
-$c['error_page'] = "1";
+$c['error_page'] = "40";
 $c['unauthorized_page'] = "1";
 $c['site_status'] = "1";
 $c['site_unavailable_message'] = "The site is currently unavailable";
@@ -132,7 +132,7 @@ $c['tinymce_custom_buttons4'] = "";
 $c['tinymce_css_selectors'] = "left=justifyleft;right=justifyright";
 $c['rb_webuser'] = "0";
 $c['clean_uploaded_filename'] = "0";
-$c['sys_files_checksum'] = "a:4:{s:38:\"/home/u406003031/public_html/index.php\";s:32:\"c6f73908b7b0a58acfe95b0f844d134e\";s:38:\"/home/u406003031/public_html/.htaccess\";s:32:\"5e05ebf5ee95a8c719c9dc89c00fbb09\";s:46:\"/home/u406003031/public_html/manager/index.php\";s:32:\"33939ea72d1fdb0078236234aa6ddad7\";s:60:\"/home/u406003031/public_html/manager/includes/config.inc.php\";s:32:\"5c34ff61a6a54949207803bceed4d40f\";}";
+$c['sys_files_checksum'] = "a:4:{s:38:\"/home/u406003031/public_html/index.php\";s:32:\"c6f73908b7b0a58acfe95b0f844d134e\";s:38:\"/home/u406003031/public_html/.htaccess\";s:32:\"a386d40c66978d4197309d15f5b0abd0\";s:46:\"/home/u406003031/public_html/manager/index.php\";s:32:\"33939ea72d1fdb0078236234aa6ddad7\";s:60:\"/home/u406003031/public_html/manager/includes/config.inc.php\";s:32:\"5c34ff61a6a54949207803bceed4d40f\";}";
 $this->aliasListing = array();
 $a = &$this->aliasListing;
 $d = &$this->documentListing;
@@ -161,6 +161,9 @@ $m[] = array('0' => '12');
 $d['santehnik-brovary'] = 15;
 $a[15] = array('id' => 15, 'alias' => 'santehnik-brovary', 'path' => '', 'parent' => 0, 'isfolder' => 0);
 $m[] = array('0' => '15');
+$d['404'] = 40;
+$a[40] = array('id' => 40, 'alias' => '404', 'path' => '', 'parent' => 0, 'isfolder' => 0);
+$m[] = array('0' => '40');
 $d['kontakty'] = 4;
 $a[4] = array('id' => 4, 'alias' => 'kontakty', 'path' => '', 'parent' => 0, 'isfolder' => 0);
 $m[] = array('0' => '4');
@@ -212,12 +215,12 @@ $m[] = array('11' => '39');
 $d['prokat_skuterov_kiev_i_brovary'] = 23;
 $a[23] = array('id' => 23, 'alias' => 'prokat_skuterov_kiev_i_brovary', 'path' => '', 'parent' => 12, 'isfolder' => 0);
 $m[] = array('12' => '23');
-$d['prokat_motorollerov_brovary'] = 21;
-$a[21] = array('id' => 21, 'alias' => 'prokat_motorollerov_brovary', 'path' => '', 'parent' => 12, 'isfolder' => 0);
-$m[] = array('12' => '21');
 $d['prokat_mopedov_i_arenda_dolgostrochnaya'] = 22;
 $a[22] = array('id' => 22, 'alias' => 'prokat_mopedov_i_arenda_dolgostrochnaya', 'path' => '', 'parent' => 12, 'isfolder' => 0);
 $m[] = array('12' => '22');
+$d['prokat_motorollerov_brovary'] = 21;
+$a[21] = array('id' => 21, 'alias' => 'prokat_motorollerov_brovary', 'path' => '', 'parent' => 12, 'isfolder' => 0);
+$m[] = array('12' => '21');
 $d['elektrik_brovary'] = 24;
 $a[24] = array('id' => 24, 'alias' => 'elektrik_brovary', 'path' => '', 'parent' => 16, 'isfolder' => 0);
 $m[] = array('16' => '24');
@@ -320,7 +323,7 @@ $c['HEADER'] = '<header>
 				
 			</div>
 				
-		  <div class="slogan">Лучший сервис в Броварах! <br> <img title="Принимаем звонки c Viber " alt="Viber" class="roo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.svg" onerror="this.onerror=null; this.src=\'assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.png\'"> тел. 093-270-46-96 </div>
+		  <div class="slogan">Лучший сервис в Броварах! <br> <img title="Принимаем звонки c Viber " alt="Viber" class="roo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.svg" onerror="this.onerror=null; this.src=\'assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.png\'"><a id="tel" href="tel:0932704696" > тел. 093-270-46-96</a> </div>
 		  
           <div class="tooltips">
 			  <a href="#"><img class="rooo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-1.svg" alt=""></a><a href="#"><img class="roo1" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-2.svg" alt=""></a><a href="#"><img class="roo2" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-3.svg" alt=""></a>
@@ -474,7 +477,7 @@ $c['HEADER_PRODUCTS'] = '<header>
       </div>
    
     <div class="header-content header-subpages"></div>
-  </header><div class="ic">More Website Templates @ TemplateMonster.com - March 12, 2012!</div>';
+  </header>';
 $c['column_tpl'] = '<div class="block-1">
 	<img title="[+pagetitle+]" src="[+column_img+]" alt="[+pagetitle+]" class="img-radius"/>
             <div class="border-1">
@@ -664,7 +667,7 @@ $c['KRU2'] = '<!--////////// services SECTION //////////-->
 					<div class="services-area">
 							<div class="circle">
 							  <div class="icon">
-								  <img src="assets/icons/flashon.png" alt="">
+								  <img src="assets/icons/ins.png" alt="">
 							  </div>
 							</div>
          <div class="circle1">
@@ -1466,7 +1469,7 @@ $e['OnManagerAuthentication'] = array('Forgot Manager Login');
 $e['OnManagerLoginFormRender'] = array('Forgot Manager Login');
 $e['OnModFormRender'] = array('CodeMirror');
 $e['OnPluginFormPrerender'] = array('FileSource');
-$e['OnPluginFormRender'] = array('FileSource','ManagerManager','CodeMirror');
+$e['OnPluginFormRender'] = array('CodeMirror','FileSource','ManagerManager');
 $e['OnRichTextEditorInit'] = array('TinyMCE Rich Text Editor');
 $e['OnRichTextEditorRegister'] = array('TinyMCE Rich Text Editor');
 $e['OnSnipFormPrerender'] = array('FileSource');

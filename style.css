@@ -1,5 +1,5 @@
 html,body{width:100%;height:100%;padding:0;margin:0;}
-.ic{border:0;float:left;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
+.ic{border:0;float:left;background:#fff;color:#f00;width:50%;line-height:10px;font-size:100%;margin:0% 0 0 0;overflow:hidden;padding:0}
 body{font:13px/22px Arial, Helvetica, sans-serif;color:#000000;min-width:100%;background:url(../images/bg.jpg) center 0 repeat;}
 .main{max-width:960px;margin:auto;}
 a{text-decoration:none;cursor:pointer;}
@@ -71,7 +71,7 @@ ul.menu li a:hover, ul.menu li.current a{color:#844c01;}
 .border-2{background:url(../images/border-2.gif) right 0 repeat-y;}
 .block-1{color:#8f8b8c;padding-top:70px;width:320px;float:left;text-align:center;}
 .block-1>div{padding:0px 30px 0px 30px;margin-top:14px;}
-#content>div{width:76%;margin:0 auto;}
+#content>div{width:100%;margin:0 auto;}
 .col-1{width:570px;float:left;padding-right:30px;}
 .col-2{width:240px;float:left;padding-left:40px;}
 .col-3{width:410px;float:left;padding-right:30px;}
@@ -83,7 +83,7 @@ ul.menu li a:hover, ul.menu li.current a{color:#844c01;}
 blockquote{color:#e88800;padding-left:15px;display:inline-block;}
 footer{width:100%;margin:auto;position:relative;overflow:hidden;text-align:center;padding:14px 0 28px 0;}
 footer .p{color:#000000;}
-.map{height:151px;margin:25px 0 0 0;}
+.map{width:240px;height:151px;margin:25px 0 0 0;}
 .map iframe{width:240px;height:151px;border-radius:7px;}
 dl{margin:22px 0px 0 0px;float:left;}
 dl dt{}
@@ -97,12 +97,12 @@ dl dd a{}
 #form label strong{font-weight:normal;float:left;display:inline-block;width:68px;padding-top:2px;}
 .btns{text-align:right;width:560px;padding-top:13px;}
 .btns a{display:inline-block;margin:0 20px 0 10px;}
-.linkblock{max-width:100%;height:auto;float:left;margin:46px 0 22px;font-size:269%;color:#e98400;font-weight:normal;text-decoration:none;font-weight:bold;text-shadow:1px 1px 2px #555;}
+.linkblock{float:left;margin:46px 0 22px;font-size:48px;color:#e98400;font-weight:normal;text-decoration:none;font-weight:bold;text-shadow:1px 1px 2px #555;}
 b:first-child{color:#d3d3d3;}
 #contact_form form
 .submit_btn{margin-left:108px;padding:5px 10px;background:#cecece;border:1px solid #888888;color:#d3d3d3;}
 .viber{float:inherit;margin:-2px 7px -12px 25px;}
-img{max-width:100%;height:auto;border-radius:7px;border-radius:7px;}
+img{width:100%;border-radius:7px;}
 #services{background:#edeef0;padding-bottom:40px;margin:83px 0px 5px 0px;}
 .circle,.circle1,.circle2{margin:83px 0px 5px 0px;background:#424242;display:table;height:200px;position:relative;width:200px;-webkit-border-radius:999px;-moz-border-radius:999px;border-radius:999px;-webkit-transition-duration:1.5s;-moz-transition-duration:1.5s;-o-transition-duration:1.5s;transition-duration:1.5s;}
 .circle1{margin:-205px 0px -199px 346px;background:#FF9100;}
@@ -114,11 +114,17 @@ img{max-width:100%;height:auto;border-radius:7px;border-radius:7px;}
 .rooo{width:23px;height:23px;margin:0px 0px 0px 0px;}
 .roo1{width:23px;height:23px;margin:0px 0px -7px 1px}
 .roo2{width:23px;height:23px;margin:0px 0px 0px 2px}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px){img{display:none;}
+@media only screen and (min-device-width:320px) and (max-device-width:480px){h1 img{display:none;}
+
 li{list-style-position:inside;display:list-item;margin-left:25px;}
 .scrollup{width:40px;height:40px;opacity:0.3;position:fixed;bottom:50px;right:100px;display:none;text-indent:-9999px;background:url('/assets/templates/Free Website Template Security Project/images/icon_top.png') no-repeat;}
 .justifyfull{text-align:justify;}
-#tel{color:#d3d3d3;}
+@media only screen and (min-device-width:320px) and (max-device-width:480px){.header-content{display:none;}}
+@media only screen and (min-device-width:320px) and (max-device-width:480px){#sh_button{display:none;}}
+@media only screen and (min-device-width:320px) and (max-device-width:480px){#logo-img img{max-width:200px;}}
 
 
-/*@media only screen and (min-device-width:320px) and (max-device-width:480px){.justi{display:none;}
-@media only screen and (min-device-width:320px) and (max-device-width:480px){p img{display:none;}*/
+
+

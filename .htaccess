@@ -9,10 +9,7 @@ AddDefaultCharset utf-8
 
 #Options +FollowSymlinks
 RewriteEngine On
-
-
-
-
+RewriteBase /broservice.com.ua
 
 RewriteBase /
 
@@ -24,17 +21,15 @@ RewriteRule ^remont_velosipeda_v_g_brovary.html$ /remont_velosipedov_v_g_brovary
 RewriteRule ^remont_velosipedov_v_g_brovary.html$ /remont_velosipedov_brovary.html [R=301,L]
 RewriteRule ^remont_noutbukov_i_kompyuterov_g_brovary.html$ /remont_noutbukov_i_kompyuterov_brovary.html [R=301,L]
 
-
-
-
 # Fix Apache internal dummy connections from breaking [(site_url)] cache
 RewriteCond %{HTTP_USER_AGENT} ^.*internal\ dummy\ connection.*$ [NC]
 RewriteRule .* - [F,L]
 
 # Rewrite domain.com -> www.domain.com -- used with SEO Strict URLs plugin
-#RewriteCond %{HTTP_HOST} .
-#RewriteCond %{HTTP_HOST} !^www\.example\.com [NC]
-#RewriteRule (.*) http://www.example.com/$1 [R=301,L]
+#RewriteCond %{HTTP_HOST} !^$
+#RewriteCond %{HTTP_HOST} !^www\. [NC]
+#RewriteCond %{HTTP_HOST} (.+)$
+#RewriteRule ^(.*)$ http://www.%1/$1 [R=permanent,L] . 
 
 # without www
 #RewriteCond %{HTTP_HOST} .
@@ -42,12 +37,12 @@ RewriteRule .* - [F,L]
 #RewriteRule (.*) http://example.com/$1 [R=301,L]
 
 # without www  all domian
-RewriteCond %{HTTP_HOST} .
-RewriteCond %{HTTP_HOST} ^www.(.*)$ [NC]
-RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+#RewriteCond %{HTTP_HOST} .
+#RewriteCond %{HTTP_HOST} ^www.(.*)$ [NC]
+#RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
 # Exclude /assets and /manager directories and images from rewrite rules
-RewriteRule ^(manager|assets|js|css|images|img)/.*$ - [L]
+RewriteRule ^(manager|assets)/.*$ - [L]
 RewriteRule \.(jpg|jpeg|png|gif|ico)$ - [L]
 
 # For Friendly URLs
@@ -58,7 +53,6 @@ RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
 # Reduce server overhead by enabling output compression if supported.
 #php_flag zlib.output_compression On
 #php_value zlib.output_compression_level 5
-
 
 
 <IfModule mod_gzip.c>
@@ -111,5 +105,15 @@ SetOutputFilter DEFLATE
 </FilesMatch>
 </IfModule>
 
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteBase /
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+    RewriteRule ^index\.php$ http://broservice.com.ua/ [R=301,L]
+</IfModule>
 
-
+<IfModule mod_setenvif.c>
+    SetEnv TZ Europe/Moscow
+</IfModule>
+ServerSignature Off
+AddDefaultCharset UTF-8

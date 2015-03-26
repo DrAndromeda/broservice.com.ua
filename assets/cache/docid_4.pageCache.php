@@ -38,18 +38,17 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <title>Контакты  - BroService.com.ua </title>
-   
-	<meta name="viewport" content="width=device-width">	
 		
+		<meta name="viewport" content="width=device-width"/>			
     <meta charset="UTF-8">
 		<base href="http://broservice.com.ua/" />
 		<meta name="keywords" content="Контакты "/>
 <meta name="description" content=""/>
-    <link href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css" rel="stylesheet" type="text/css" media="screen" >
+    <link  href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css" rel="stylesheet" type="text/css" media="screen" >
     
-		<script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery-1.7.min.js"></script>
-		<script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery.easing.1.3.js"></script>
-		<script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/FF-cash.js"></script>
+		<script async src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery-1.7.min.js"></script>
+		<script async src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery.easing.1.3.js"></script>
+		<script async src="assets/templates/Free%20Website%20Template%20Security%20Project/js/FF-cash.js"></script>
 	<!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
          <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -112,7 +111,7 @@
       </div>
    
     <div class="header-content header-subpages"></div>
-  </header><div class="ic">More Website Templates @ TemplateMonster.com - March 12, 2012!</div>
+  </header>
 <!--==============================header=================================-->
   
 	<!--==============================content================================-->
@@ -184,5 +183,6 @@
 
 	 <a rel="nofollow" href="http://AdFoto.com.ua" class="link" target="_blank">AdFoto.com.ua</a>
 </footer>
+
 </body>
 </html>
