@@ -63,7 +63,7 @@ $c['new_folder_permissions'] = "0755";
 $c['filemanager_path'] = "/home/u406003031/public_html/";
 $c['theme_refresher'] = "";
 $c['manager_layout'] = "4";
-$c['custom_contenttype'] = "application/rss+xml,application/pdf,application/vnd.ms-word,application/vnd.ms-excel,text/html,text/css,text/xml,text/javascript,text/plain,application/json";
+$c['custom_contenttype'] = "application/json,application/pdf,application/rss+xml,application/vnd.ms-excel,application/vnd.ms-word,text/css,text/html,text/javascript,text/plain,text/xml";
 $c['auto_menuindex'] = "1";
 $c['session.cookie.lifetime'] = "604800";
 $c['mail_check_timeperiod'] = "60";
@@ -77,7 +77,7 @@ $c['rss_url_news'] = "http://feeds.feedburner.com/modx-announce";
 $c['rss_url_security'] = "http://feeds.feedburner.com/modxsecurity";
 $c['validate_referer'] = "1";
 $c['datepicker_offset'] = "-10";
-$c['xhtml_urls'] = "1";
+$c['xhtml_urls'] = "0";
 $c['allow_duplicate_alias'] = "0";
 $c['automatic_alias'] = "1";
 $c['datetime_format'] = "dd-mm-YYYY";
@@ -85,7 +85,7 @@ $c['warning_visibility'] = "1";
 $c['remember_last_tab'] = "0";
 $c['enable_bindings'] = "1";
 $c['seostrict'] = "1";
-$c['cache_type'] = "1";
+$c['cache_type'] = "2";
 $c['maxImageWidth'] = "1600";
 $c['maxImageHeight'] = "1200";
 $c['thumbWidth'] = "150";
@@ -132,7 +132,7 @@ $c['tinymce_custom_buttons4'] = "";
 $c['tinymce_css_selectors'] = "left=justifyleft;right=justifyright";
 $c['rb_webuser'] = "0";
 $c['clean_uploaded_filename'] = "0";
-$c['sys_files_checksum'] = "a:4:{s:38:\"/home/u406003031/public_html/index.php\";s:32:\"c6f73908b7b0a58acfe95b0f844d134e\";s:38:\"/home/u406003031/public_html/.htaccess\";s:32:\"a386d40c66978d4197309d15f5b0abd0\";s:46:\"/home/u406003031/public_html/manager/index.php\";s:32:\"33939ea72d1fdb0078236234aa6ddad7\";s:60:\"/home/u406003031/public_html/manager/includes/config.inc.php\";s:32:\"5c34ff61a6a54949207803bceed4d40f\";}";
+$c['sys_files_checksum'] = "a:4:{s:38:\"/home/u406003031/public_html/index.php\";s:32:\"c6f73908b7b0a58acfe95b0f844d134e\";s:38:\"/home/u406003031/public_html/.htaccess\";s:32:\"81a2890531885bc5ed703cc9c500e2b3\";s:46:\"/home/u406003031/public_html/manager/index.php\";s:32:\"33939ea72d1fdb0078236234aa6ddad7\";s:60:\"/home/u406003031/public_html/manager/includes/config.inc.php\";s:32:\"5c34ff61a6a54949207803bceed4d40f\";}";
 $this->aliasListing = array();
 $a = &$this->aliasListing;
 $d = &$this->documentListing;
@@ -149,12 +149,21 @@ $m[] = array('0' => '3');
 $d['remont_noutbukov_i_kompyuterov_brovary'] = 10;
 $a[10] = array('id' => 10, 'alias' => 'remont_noutbukov_i_kompyuterov_brovary', 'path' => '', 'parent' => 0, 'isfolder' => 1);
 $m[] = array('0' => '10');
+$d['elektrik_brovary'] = 24;
+$a[24] = array('id' => 24, 'alias' => 'elektrik_brovary', 'path' => '', 'parent' => 0, 'isfolder' => 0);
+$m[] = array('0' => '24');
 $d['santehnik_brovary'] = 16;
 $a[16] = array('id' => 16, 'alias' => 'santehnik_brovary', 'path' => '', 'parent' => 0, 'isfolder' => 1);
 $m[] = array('0' => '16');
+$d['remont_telefonov_brovary'] = 46;
+$a[46] = array('id' => 46, 'alias' => 'remont_telefonov_brovary', 'path' => '', 'parent' => 0, 'isfolder' => 0);
+$m[] = array('0' => '46');
 $d['prokat-volosipedov-brovary'] = 11;
 $a[11] = array('id' => 11, 'alias' => 'prokat-volosipedov-brovary', 'path' => '', 'parent' => 0, 'isfolder' => 1);
 $m[] = array('0' => '11');
+$d['strahovka-brovary'] = 47;
+$a[47] = array('id' => 47, 'alias' => 'strahovka-brovary', 'path' => '', 'parent' => 0, 'isfolder' => 0);
+$m[] = array('0' => '47');
 $d['prokat_motociklov_i_skuterov_brovary_kiev'] = 12;
 $a[12] = array('id' => 12, 'alias' => 'prokat_motociklov_i_skuterov_brovary_kiev', 'path' => '', 'parent' => 0, 'isfolder' => 1);
 $m[] = array('0' => '12');
@@ -164,12 +173,18 @@ $m[] = array('0' => '15');
 $d['404'] = 40;
 $a[40] = array('id' => 40, 'alias' => '404', 'path' => '', 'parent' => 0, 'isfolder' => 0);
 $m[] = array('0' => '40');
-$d['sitemapxml'] = 44;
-$a[44] = array('id' => 44, 'alias' => 'sitemapxml', 'path' => '', 'parent' => 0, 'isfolder' => 0);
-$m[] = array('0' => '44');
 $d['kontakty'] = 4;
 $a[4] = array('id' => 4, 'alias' => 'kontakty', 'path' => '', 'parent' => 0, 'isfolder' => 0);
 $m[] = array('0' => '4');
+$d['sitemap'] = 44;
+$a[44] = array('id' => 44, 'alias' => 'sitemap', 'path' => '', 'parent' => 0, 'isfolder' => 0);
+$m[] = array('0' => '44');
+$d['dostavka_vody_brovary'] = 48;
+$a[48] = array('id' => 48, 'alias' => 'dostavka_vody_brovary', 'path' => '', 'parent' => 0, 'isfolder' => 0);
+$m[] = array('0' => '48');
+$d['sozdanie_sajta_brovary'] = 49;
+$a[49] = array('id' => 49, 'alias' => 'sozdanie_sajta_brovary', 'path' => '', 'parent' => 0, 'isfolder' => 0);
+$m[] = array('0' => '49');
 $d['bystro'] = 18;
 $a[18] = array('id' => 18, 'alias' => 'bystro', 'path' => '', 'parent' => 1, 'isfolder' => 0);
 $m[] = array('1' => '18');
@@ -179,42 +194,42 @@ $m[] = array('1' => '19');
 $d['nadezhno'] = 20;
 $a[20] = array('id' => 20, 'alias' => 'nadezhno', 'path' => '', 'parent' => 1, 'isfolder' => 0);
 $m[] = array('1' => '20');
-$d['remont_kvadrociklov_i_moto'] = 28;
-$a[28] = array('id' => 28, 'alias' => 'remont_kvadrociklov_i_moto', 'path' => '', 'parent' => 2, 'isfolder' => 0);
-$m[] = array('2' => '28');
-$d['remont_mopedov_v_kiev_i_brovary_ezhednevno'] = 26;
-$a[26] = array('id' => 26, 'alias' => 'remont_mopedov_v_kiev_i_brovary_ezhednevno', 'path' => '', 'parent' => 2, 'isfolder' => 0);
-$m[] = array('2' => '26');
 $d['remont_motociklov_brovary_i_kiev'] = 25;
 $a[25] = array('id' => 25, 'alias' => 'remont_motociklov_brovary_i_kiev', 'path' => '', 'parent' => 2, 'isfolder' => 0);
 $m[] = array('2' => '25');
-$d['aksessuary_dlya_velosipeda'] = 30;
-$a[30] = array('id' => 30, 'alias' => 'aksessuary_dlya_velosipeda', 'path' => '', 'parent' => 3, 'isfolder' => 0);
-$m[] = array('3' => '30');
+$d['remont_mopedov_v_kiev_i_brovary_ezhednevno'] = 26;
+$a[26] = array('id' => 26, 'alias' => 'remont_mopedov_v_kiev_i_brovary_ezhednevno', 'path' => '', 'parent' => 2, 'isfolder' => 0);
+$m[] = array('2' => '26');
+$d['remont_kvadrociklov_i_moto'] = 28;
+$a[28] = array('id' => 28, 'alias' => 'remont_kvadrociklov_i_moto', 'path' => '', 'parent' => 2, 'isfolder' => 0);
+$m[] = array('2' => '28');
 $d['zapchasti_na_velosiped'] = 31;
 $a[31] = array('id' => 31, 'alias' => 'zapchasti_na_velosiped', 'path' => '', 'parent' => 3, 'isfolder' => 0);
 $m[] = array('3' => '31');
+$d['aksessuary_dlya_velosipeda'] = 30;
+$a[30] = array('id' => 30, 'alias' => 'aksessuary_dlya_velosipeda', 'path' => '', 'parent' => 3, 'isfolder' => 0);
+$m[] = array('3' => '30');
 $d['tyuning_velosipeda'] = 29;
 $a[29] = array('id' => 29, 'alias' => 'tyuning_velosipeda', 'path' => '', 'parent' => 3, 'isfolder' => 0);
 $m[] = array('3' => '29');
-$d['ustanovka_windows_kiev_i_brovary'] = 32;
-$a[32] = array('id' => 32, 'alias' => 'ustanovka_windows_kiev_i_brovary', 'path' => '', 'parent' => 10, 'isfolder' => 0);
-$m[] = array('10' => '32');
 $d['remont_i_zamena_matricy_noutbuka_kiev_brovary'] = 33;
 $a[33] = array('id' => 33, 'alias' => 'remont_i_zamena_matricy_noutbuka_kiev_brovary', 'path' => '', 'parent' => 10, 'isfolder' => 0);
 $m[] = array('10' => '33');
 $d['skoraya_kompyuternaya_pomoshh_kiev_brovary_na_domu'] = 34;
 $a[34] = array('id' => 34, 'alias' => 'skoraya_kompyuternaya_pomoshh_kiev_brovary_na_domu', 'path' => '', 'parent' => 10, 'isfolder' => 0);
 $m[] = array('10' => '34');
-$d['prokat_velosumok_i_veloaksessuarov'] = 39;
-$a[39] = array('id' => 39, 'alias' => 'prokat_velosumok_i_veloaksessuarov', 'path' => '', 'parent' => 11, 'isfolder' => 0);
-$m[] = array('11' => '39');
-$d['prokat_bagazhnika_i_detskogo_velokresla'] = 38;
-$a[38] = array('id' => 38, 'alias' => 'prokat_bagazhnika_i_detskogo_velokresla', 'path' => '', 'parent' => 11, 'isfolder' => 0);
-$m[] = array('11' => '38');
+$d['ustanovka_windows_kiev_i_brovary'] = 32;
+$a[32] = array('id' => 32, 'alias' => 'ustanovka_windows_kiev_i_brovary', 'path' => '', 'parent' => 10, 'isfolder' => 0);
+$m[] = array('10' => '32');
 $d['prokat_gopro_kiev_brovary'] = 37;
 $a[37] = array('id' => 37, 'alias' => 'prokat_gopro_kiev_brovary', 'path' => '', 'parent' => 11, 'isfolder' => 0);
 $m[] = array('11' => '37');
+$d['prokat_bagazhnika_i_detskogo_velokresla'] = 38;
+$a[38] = array('id' => 38, 'alias' => 'prokat_bagazhnika_i_detskogo_velokresla', 'path' => '', 'parent' => 11, 'isfolder' => 0);
+$m[] = array('11' => '38');
+$d['prokat_velosumok_i_veloaksessuarov'] = 39;
+$a[39] = array('id' => 39, 'alias' => 'prokat_velosumok_i_veloaksessuarov', 'path' => '', 'parent' => 11, 'isfolder' => 0);
+$m[] = array('11' => '39');
 $d['prokat_mopedov_i_arenda_dolgostrochnaya'] = 22;
 $a[22] = array('id' => 22, 'alias' => 'prokat_mopedov_i_arenda_dolgostrochnaya', 'path' => '', 'parent' => 12, 'isfolder' => 0);
 $m[] = array('12' => '22');
@@ -224,9 +239,6 @@ $m[] = array('12' => '21');
 $d['prokat_skuterov_kiev_i_brovary'] = 23;
 $a[23] = array('id' => 23, 'alias' => 'prokat_skuterov_kiev_i_brovary', 'path' => '', 'parent' => 12, 'isfolder' => 0);
 $m[] = array('12' => '23');
-$d['elektrik_brovary'] = 24;
-$a[24] = array('id' => 24, 'alias' => 'elektrik_brovary', 'path' => '', 'parent' => 16, 'isfolder' => 0);
-$m[] = array('16' => '24');
 $d['remont_stiralnyh_mashin_brovary'] = 36;
 $a[36] = array('id' => 36, 'alias' => 'remont_stiralnyh_mashin_brovary', 'path' => '', 'parent' => 16, 'isfolder' => 0);
 $m[] = array('16' => '36');
@@ -302,11 +314,11 @@ $c['HEAD'] = '<!DOCTYPE html>
 		<base href="[(site_url)]" />
 		<meta name="keywords" content="[*keyw*]"/>
 <meta name="description" content="[*desc*]"/>
-    <link  href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css" rel="stylesheet" type="text/css" media="screen" >
-    
-		<script async src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery-1.7.min.js"></script>
-		<script async src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery.easing.1.3.js"></script>
-		<script async src="assets/templates/Free%20Website%20Template%20Security%20Project/js/FF-cash.js"></script>
+    <link  async="async" href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css" rel="stylesheet" type="text/css" media="screen" >
+    <script  type="text/javascript"  src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+		<script async="async" src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery-1.7.min.js"></script>
+		<script async="async" src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery.easing.1.3.js"></script>
+		<script async="async" src="assets/templates/Free%20Website%20Template%20Security%20Project/js/FF-cash.js"></script>
 	<!--[if lt IE 8]>
        <div style=\' clear: both; text-align:center; position: relative;\'>
          <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -319,7 +331,30 @@ $c['HEAD'] = '<!DOCTYPE html>
     	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
 	<![endif]-->
 	<link rel="icon" href="assets/images/favicon.ico" type="image/vnd.microsoft.icon" />
-</head>';
+</head>
+	
+	
+	
+	<div id="upbutton"></div>
+<script type="text/javascript" >
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      if ($(\'#upbutton\').is(\':hidden\')) {
+        $(\'#upbutton\').css({
+          opacity : 1
+        }).fadeIn(\'slow\');
+      }
+    } else {
+      $(\'#upbutton\').stop(true, false).fadeOut(\'fast\');
+    }
+  });
+  $(\'#upbutton\').click(function() {
+    $(\'html, body\').stop().animate({
+      scrollTop : 0
+    }, 300);
+  });
+</script>
+';
 $c['HEADER'] = '<header>
   	<div class="main">
       <div class="wrap">
@@ -377,50 +412,13 @@ $c['MENU'] = '<div class="nav-shadow">
 		
 		
 ';
-$c['COLUMN'] = '<section id="content">
-      <div>
-      	<div class="wrap">
-        	<div class="col-1 border-2">
-            	<h1 class="p3">Who We Are?</h1>
-                <div class="wrap">
-					<img src="assets/templates/Free%20Website%20Template%20Security%20Project/images/page1-img4.jpg" alt="" class="img-indent img-radius">
-                    <p class="extra-wrap">Security Group is one of <a href="http://blog.templatemonster.com/free-website-templates/" class="link" target="_blank">free website templates</a> created by TemplateMonster.com. This website template is optimized for 1280X1024 screen resolution. This <a href="http://blog.templatemonster.com/2012/03/12/free-website-template-security-project/" class="link">Security Group Template</a> goes with 2 packages – with PSD source files and without them. PSD source files are available for free for the registered members of TemplateMonster.com.</p>
-                </div>
-                <div class="wrap top-2">
-                	<ul class="list-1 fleft">
-                    	<li><a href="#">Lorem ipsum dolor sit  consetetur</a></li>
-                        <li><a href="#">Sadipscing elitred diam nonumy eirmod</a></li>
-                        <li><a href="#">Tempor invidunt labore dolore magna</a></li>
-                        <li><a href="#">Aliquyam erat, sed diam volupt</a></li>
-                    </ul>
-                    <ul class="list-1 fleft">
-                    	<li><a href="#">At vero eos et accusam et justo duo</a></li>
-                        <li><a href="#">Dolores et ea rebum. stetasd gubergren</a></li>
-                        <li><a href="#">Takimata sanctus est lorem</a></li>
-                        <li><a href="#">Psum dolor sit amet orem ipsum</a></li>
-                    </ul>
-                </div>
-                <a href="#" class="button-1 top-3">Read More</a>
-            </div>
-            <div class="col-2">
-            	<h2 class="p2">Latest News</h2>
-                <a href="#" class="link-2">29.02.2011</a>
-                <p class="p4">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus.</p>
-                <a href="#" class="link-2">27.02.2011</a>
-                <p class="p4">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-                <a href="#" class="link-2">22.02.2011</a>
-                <p>Onvidunt ut labore dolore magna aliquym erat, sed diam voluptua vero eos accusam et justo duo dolores.</p>
-                <a href="#" class="button-1 top-1">Read More</a>
-            </div>    
-        </div>
-      </div>
-  </section>';
+$c['COLUMN'] = '[!Ditto? &parents=`1` &tpl=`column_tpl` &tplLast=`column_tpl_last` &randomize=`1` &display=`3`!]';
 $c['FOOTER'] = '<footer style="color:#ff6c36">
-	<p> BroService.com.ua ·  2015 · [*pagetitle*]<!--Все права защищены.!--></p> 
+	<p> BroService.com.ua ·  2016 <a rel="nofollow" href="http://broservice.com.ua/sitemap.xml" class="link" target="_blank">·</a> [*pagetitle*]<!--Все права защищены.!--></p> 
       <p>Телефон: 093 270 46 96 &nbsp; Email: <a href="mailto:info@broservice.com.ua?subject=Вопрос по Серсвису broservice.com.ua" class="link">info@broservice.com.ua</a></p>
-	<a>Доставка воды Бровары</a> : <a rel="nofollow" href="http://crystalwater.kiev.ua/" class="link" target="_blank">crystalwater.kiev.ua</a>
+	<a>Доставка воды Бровары</a> : <a href="http://crystalwater.kiev.ua/" class="link" target="_blank">crystalwater.kiev.ua</a>
 
-	 <a>Разработка сайта</a> : <a rel="nofollow" href="http://AdFoto.com.ua" class="link" target="_blank">AdFoto.com.ua</a>
+	 <a>Разработка сайта</a><!--rel="nofollow"!--> : <a href="http://AdFoto.com.ua" class="link" target="_blank">AdFoto.com.ua</a>
 	<script>
   (function(i,s,o,g,r,a,m){i[\'GoogleAnalyticsObject\']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -446,9 +444,7 @@ $c['HEAD_PRODUCTS'] = '<!DOCTYPE html>
 		<meta name="keywords" content="[*keyw*]"/>
 <meta name="description" content="[*desc*]"/>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/templates/Free%20Website%20Template%20Security%20Project/css/reset.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen"  href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css">
     <script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery-1.7.min.js"></script>
     <script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery.easing.1.3.js"></script>
     <script src="assets/templates/Free%20Website%20Template%20Security%20Project/js/FF-cash.js"></script>
@@ -464,7 +460,27 @@ $c['HEAD_PRODUCTS'] = '<!DOCTYPE html>
     	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
 	<![endif]-->
 		<link rel="icon" href="assets/images/favicon.ico" type="image/vnd.microsoft.icon" />
-</head>';
+</head>
+	<div id="upbutton"></div>
+
+<script type="text/javascript" >
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      if ($(\'#upbutton\').is(\':hidden\')) {
+        $(\'#upbutton\').css({
+          opacity : 1
+        }).fadeIn(\'slow\');
+      }
+    } else {
+      $(\'#upbutton\').stop(true, false).fadeOut(\'fast\');
+    }
+  });
+  $(\'#upbutton\').click(function() {
+    $(\'html, body\').stop().animate({
+      scrollTop : 0
+    }, 300);
+  });
+</script>';
 $c['HEADER_PRODUCTS'] = '<header>
 	<style type="text/css">
     b:first-child {
@@ -482,7 +498,7 @@ $c['HEADER_PRODUCTS'] = '<header>
 <div class="slogan">Лучший сервис в Броварах! <br> <img title="Принимаем звонки c Viber" alt="Viber" class="roo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.svg" onerror="this.onerror=null; this.src=\'assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.png\'"> тел. 093-270-46-96 </div>
 		  
           <div class="tooltips">
-			  <a href="#"><img class="rooo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-1.svg" alt=""></a><a href="#"><img class="roo1" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-2.svg" alt=""></a><a href="#"><img class="roo2" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-3.svg" alt=""></a>
+			  <a onclick="window.open(\'https://vk.com/brovaryservice\')" target="_blank"><img class="rooo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-1.svg" alt=""></a><a onclick="window.open(\'https://www.facebook.com/pages/BroService/827952883955376\')"target="_blank"><img class="roo1" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-2.svg" alt=""></a><a onclick="window.open(\'https://plus.google.com/u/0/b/103623959270045742066/103623959270045742066/about\')"target="_blank"><img class="roo2" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-3.svg" alt=""></a>
           </div>
       </div>
       
@@ -496,7 +512,7 @@ $c['column_tpl'] = '<div class="block-1">
             <div class="border-1">
             	<p class="color-1 p2">[+pagetitle+]</p>
                 <p>[+introtext+]</p>
-                <a href="http://broservice.com.ua/kachestvenno.html" class="button top-1">Читать далее...</a>
+                <a href=" http://broservice.com.ua/" class="button top-1">Читать далее...</a>
             </div>
         </div>
 ';

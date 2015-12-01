@@ -116,7 +116,6 @@ img{max-width:100%;height:auto;border-radius:7px;border-radius:7px;}
 .roo1{width:23px;height:23px;margin:0px 0px -7px 1px}
 .roo2{width:23px;height:23px;margin:0px 0px 0px 2px}
 li{list-style-position:inside;display:list-item;margin-left:25px;}
-.scrollup{width:40px;height:40px;opacity:0.3;position:fixed;bottom:50px;right:100px;display:none;text-indent:-9999px;background:url('/assets/templates/Free Website Template Security Project/images/icon_top.png') no-repeat;}
 .justifyfull{text-align:justify;}
 #tel{color:#d3d3d3;}
 @media only screen and (min-device-width:320px) and (max-device-width:480px){.justi{display:none;}}
@@ -138,129 +137,20 @@ p,li,ul{
     -o-user-select: none;
     user-select: none;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .main-nav {
-background: #6091ba;
-margin-bottom: 30px;
-}
-.main-nav button {
-background: #27435a;
-color: #fff !important;
--webkit-border-radius: 0;
--moz-border-radius: 0;
--ms-border-radius: 0;
--o-border-radius: 0;
-border-radius: 0;
--moz-background-clip: padding;
--webkit-background-clip: padding-box;
-background-clip: padding-box;
-}
-.main-nav button:focus {
-outline: none;
-}
-.main-nav button .icon-bar {
-background-color: #fff;
-}
-.main-nav .navbar-collapse {
-padding: 0;
-}
-.main-nav .nav .nav-item {
-font-weight: 600;
-text-transform: uppercase;
-font-family: 'open sans', arial, sans-serif;
-z-index: 100;
-}
-.main-nav .nav .nav-item a {
-color: #dce7f0;
--webkit-transition: all 0.4s ease-in-out;
--moz-transition: all 0.4s ease-in-out;
--ms-transition: all 0.4s ease-in-out;
--o-transition: all 0.4s ease-in-out;
-}
-.main-nav .nav .nav-item a:hover {
-background: #6091ba;
-color: #fff;
-}
-.main-nav .nav .nav-item.active {
-position: relative;
-}
-.main-nav .nav .nav-item.active > a {
-background: #4678a1;
-color: #fff;
-}
-.main-nav .nav .nav-item.active > a:before {
-content: "\f0d8";
-position: absolute;
-bottom: -8px;
-left: 0;
-text-align: center;
-font-family: FontAwesome;
-display: block;
-font-size: 12px;
-width: 100%;
-}
-.main-nav .nav .nav-item.active > a.dropdown-toggle:before {
-display: none;
-}
-.main-nav .nav .nav-item.open a {
-background: #4678a1;
-color: #fff;
-}
-.main-nav .nav .nav-item .dropdown-menu {
--webkit-border-radius: 0;
--moz-border-radius: 0;
--ms-border-radius: 0;
--o-border-radius: 0;
-border-radius: 0;
--moz-background-clip: padding;
--webkit-background-clip: padding-box;
-background-clip: padding-box;
-margin: 0;
-border: none;
-padding: 0;
-text-transform: none;
-min-width: 220px;
-}
-.main-nav .nav .nav-item .dropdown-menu a {
-border-bottom: 1px solid #3e6a8f;
-padding: 8px 20px;
-}
-.main-nav .nav .nav-item .dropdown-menu a:hover {
-background: #3e6a8f;
-color: #fff;
-padding-left: 24px;
+#upbutton {
+    background: url("/assets/images/icon_top.png") no-repeat scroll;
+    height: 60px;
+    width: 60px;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    z-index: 9999;
+    opacity: 0.3;
+    text-indent: -9999px;
+  }
 }
 
 
@@ -269,28 +159,7 @@ padding-left: 24px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+__________pin-pong___________________________________________
 
 @import url(https://fonts.googleapis.com/css?family=Chewy);
 
@@ -534,4 +403,8 @@ padding-left: 24px;
 #b3, #b4 {    
     top: -5px;
     left: 70px;
+}
+@media only screen and (device-width: 768px) {
+  .header-content{display: none;}
+  .bro{display: none;}
 }

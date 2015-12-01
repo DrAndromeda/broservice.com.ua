@@ -36,7 +36,7 @@
 <h3>Прокат велосипедов Бровары которые предоставляет сервисный центр Бросервис</h3>
 <p class="justifyfull">Зарядиться позитивом, получить максимум положительных эмоций и заряда бодрости, а так же для комфортного перемещения по красивым окресностям города и лесов - прокат велосипедов в г. Бровары. Предлагаем в аренду большой выбор моделей велосипедов разнообразных&nbsp;производителей. Для Вашего удобства предоставляется доставка велосипеда к Вам по адресу, или же Вы можете забрать любой понравившийся Вам велосипед в нашем сервисном центре Бросервис, который находится в городе Бровары.&nbsp;Все велосипеды в отличном состоянии, а это значит, что Вы можете не переживать за комфорт и безопасность езды!&nbsp;Обращайтесь, и мы сделаем все для Вашего классного времяпрепровождения и решения технических проблем Вашего транспорта!</p>
 <p id="foot"><img src="assets/images/servisni_centr_brovari.jpg" width="980" height="281" style="vertical-align: middle; display: block; margin-left: auto; margin-right: auto;" alt="Сервис Бровары" /></p>
-<p style="text-align: center;"><span style="font-weight: bolder; color: #000000; font-size: 200%;">BroService.com.ua</span></p>";s:8:"richtext";s:1:"1";s:8:"template";s:1:"3";s:9:"menuindex";s:1:"1";s:10:"searchable";s:1:"1";s:9:"cacheable";s:1:"1";s:9:"createdby";s:1:"1";s:9:"createdon";s:10:"1130304721";s:8:"editedby";s:1:"1";s:8:"editedon";s:10:"1432491091";s:7:"deleted";s:1:"0";s:9:"deletedon";s:1:"0";s:9:"deletedby";s:1:"0";s:11:"publishedon";s:10:"1423561336";s:11:"publishedby";s:1:"1";s:9:"menutitle";s:17:"О сервисе";s:7:"donthit";s:1:"0";s:11:"haskeywords";s:1:"0";s:11:"hasmetatags";s:1:"0";s:10:"privateweb";s:1:"0";s:10:"privatemgr";s:1:"0";s:13:"content_dispo";s:1:"0";s:8:"hidemenu";s:1:"0";s:13:"alias_visible";s:1:"1";s:10:"column_img";a:5:{i:0;s:10:"column_img";i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";i:4;s:5:"image";}s:8:"keywords";a:5:{i:0;s:8:"keywords";i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";i:4;s:4:"text";}s:4:"desc";a:5:{i:0;s:4:"desc";i:1;s:234:"Сервисный центр предоставляет услуги по ремонту, прокату и обслуживанию велосипедов, мото, ноутбуков и прочее в городе Бровары.";i:2;s:0:"";i:3;s:0:"";i:4;s:8:"textarea";}s:4:"keyw";a:5:{i:0;s:4:"keyw";i:1;s:124:"сервисный центр Бровары, сервисный центр в Броварах, ремонт Бровары";i:2;s:0:"";i:3;s:0:"";i:4;s:4:"text";}s:7:"noIndex";a:5:{i:0;s:7:"noIndex";i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";i:4;s:8:"checkbox";}s:4:"titl";a:5:{i:0;s:4:"titl";i:1;s:120:"Сервисный центр Бровары это ремонт и прокат велосипедов скутеров";i:2;s:0:"";i:3;s:0:"";i:4;s:4:"text";}s:18:"sitemap_changefreq";a:5:{i:0;s:18:"sitemap_changefreq";i:1;s:6:"weekly";i:2;s:0:"";i:3;s:0:"";i:4;s:8:"dropdown";}s:16:"sitemap_priority";a:5:{i:0;s:16:"sitemap_priority";i:1;s:3:"1.0";i:2;s:0:"";i:3;s:0:"";i:4;s:8:"dropdown";}s:17:"__MODxDocGroups__";s:0:"";}<!--__MODxCacheSpliter__--><!DOCTYPE html>
+<p style="text-align: center;"><span style="font-weight: bolder; color: #000000; font-size: 200%;">BroService.com.ua</span></p>";s:8:"richtext";s:1:"1";s:8:"template";s:1:"3";s:9:"menuindex";s:1:"1";s:10:"searchable";s:1:"1";s:9:"cacheable";s:1:"1";s:9:"createdby";s:1:"1";s:9:"createdon";s:10:"1130304721";s:8:"editedby";s:1:"1";s:8:"editedon";s:10:"1445805933";s:7:"deleted";s:1:"0";s:9:"deletedon";s:1:"0";s:9:"deletedby";s:1:"0";s:11:"publishedon";s:10:"1423561336";s:11:"publishedby";s:1:"1";s:9:"menutitle";s:17:"О сервисе";s:7:"donthit";s:1:"0";s:11:"haskeywords";s:1:"0";s:11:"hasmetatags";s:1:"0";s:10:"privateweb";s:1:"0";s:10:"privatemgr";s:1:"0";s:13:"content_dispo";s:1:"0";s:8:"hidemenu";s:1:"0";s:13:"alias_visible";s:1:"0";s:10:"column_img";a:5:{i:0;s:10:"column_img";i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";i:4;s:5:"image";}s:8:"keywords";a:5:{i:0;s:8:"keywords";i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";i:4;s:4:"text";}s:4:"desc";a:5:{i:0;s:4:"desc";i:1;s:234:"Сервисный центр предоставляет услуги по ремонту, прокату и обслуживанию велосипедов, мото, ноутбуков и прочее в городе Бровары.";i:2;s:0:"";i:3;s:0:"";i:4;s:8:"textarea";}s:4:"keyw";a:5:{i:0;s:4:"keyw";i:1;s:124:"сервисный центр Бровары, сервисный центр в Броварах, ремонт Бровары";i:2;s:0:"";i:3;s:0:"";i:4;s:4:"text";}s:7:"noIndex";a:5:{i:0;s:7:"noIndex";i:1;s:0:"";i:2;s:0:"";i:3;s:0:"";i:4;s:8:"checkbox";}s:4:"titl";a:5:{i:0;s:4:"titl";i:1;s:120:"Сервисный центр Бровары это ремонт и прокат велосипедов скутеров";i:2;s:0:"";i:3;s:0:"";i:4;s:4:"text";}s:18:"sitemap_changefreq";a:5:{i:0;s:18:"sitemap_changefreq";i:1;s:6:"weekly";i:2;s:0:"";i:3;s:0:"";i:4;s:8:"dropdown";}s:16:"sitemap_priority";a:5:{i:0;s:16:"sitemap_priority";i:1;s:3:"1.0";i:2;s:0:"";i:3;s:0:"";i:4;s:8:"dropdown";}s:17:"__MODxDocGroups__";s:0:"";}<!--__MODxCacheSpliter__--><!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -47,11 +47,11 @@
 		<base href="http://broservice.com.ua/" />
 		<meta name="keywords" content="сервисный центр Бровары, сервисный центр в Броварах, ремонт Бровары"/>
 <meta name="description" content="Сервисный центр предоставляет услуги по ремонту, прокату и обслуживанию велосипедов, мото, ноутбуков и прочее в городе Бровары."/>
-    <link  href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css" rel="stylesheet" type="text/css" media="screen" >
-    
-		<script async src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery-1.7.min.js"></script>
-		<script async src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery.easing.1.3.js"></script>
-		<script async src="assets/templates/Free%20Website%20Template%20Security%20Project/js/FF-cash.js"></script>
+    <link  async="async" href="assets/templates/Free%20Website%20Template%20Security%20Project/css/style.css" rel="stylesheet" type="text/css" media="screen" >
+    <script  type="text/javascript"  src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+		<script async="async" src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery-1.7.min.js"></script>
+		<script async="async" src="assets/templates/Free%20Website%20Template%20Security%20Project/js/jquery.easing.1.3.js"></script>
+		<script async="async" src="assets/templates/Free%20Website%20Template%20Security%20Project/js/FF-cash.js"></script>
 	<!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
          <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -65,6 +65,29 @@
 	<![endif]-->
 	<link rel="icon" href="assets/images/favicon.ico" type="image/vnd.microsoft.icon" />
 </head>
+	
+	
+	
+	<div id="upbutton"></div>
+<script type="text/javascript" >
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      if ($('#upbutton').is(':hidden')) {
+        $('#upbutton').css({
+          opacity : 1
+        }).fadeIn('slow');
+      }
+    } else {
+      $('#upbutton').stop(true, false).fadeOut('fast');
+    }
+  });
+  $('#upbutton').click(function() {
+    $('html, body').stop().animate({
+      scrollTop : 0
+    }, 300);
+  });
+</script>
+
 <body>
 	<header>
   	<div class="main">
@@ -164,11 +187,11 @@
   
 <!--==============================content================================-->
 	<footer style="color:#ff6c36">
-	<p> BroService.com.ua ·  2015 · Сервисный центр Бровары<!--Все права защищены.!--></p> 
+	<p> BroService.com.ua ·  2016 <a rel="nofollow" href="http://broservice.com.ua/sitemap.xml" class="link" target="_blank">·</a> Сервисный центр Бровары<!--Все права защищены.!--></p> 
       <p>Телефон: 093 270 46 96 &nbsp; Email: <a href="mailto:info@broservice.com.ua?subject=Вопрос по Серсвису broservice.com.ua" class="link">info@broservice.com.ua</a></p>
-	<a>Доставка воды Бровары</a> : <a rel="nofollow" href="http://crystalwater.kiev.ua/" class="link" target="_blank">crystalwater.kiev.ua</a>
+	<a>Доставка воды Бровары</a> : <a href="http://crystalwater.kiev.ua/" class="link" target="_blank">crystalwater.kiev.ua</a>
 
-	 <a>Разработка сайта</a> : <a rel="nofollow" href="http://AdFoto.com.ua" class="link" target="_blank">AdFoto.com.ua</a>
+	 <a>Разработка сайта</a><!--rel="nofollow"!--> : <a href="http://AdFoto.com.ua" class="link" target="_blank">AdFoto.com.ua</a>
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -182,24 +205,8 @@
 </footer>
 
 <!--==============================footer=================================-->
-  	<script type="text/javascript">
-$(document).ready(function(){
- 
-$(window).scroll(function(){
-if ($(this).scrollTop() > 100) {
-$('.scrollup').fadeIn();
-} else {
-$('.scrollup').fadeOut();
-}
-});
- 
-$('.scrollup').click(function(){
-$("html, body").animate({ scrollTop: 0 }, 600);
-return false;
-});
- 
-});
-</script>
-<a href="#" class="scrollup">Наверх</a>
+  	<div id="upbutton"></div>
+
+
 </body>
 </html>
