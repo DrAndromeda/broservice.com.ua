@@ -173,18 +173,30 @@ $m[] = array('0' => '15');
 $d['404'] = 40;
 $a[40] = array('id' => 40, 'alias' => '404', 'path' => '', 'parent' => 0, 'isfolder' => 0);
 $m[] = array('0' => '40');
-$d['kontakty'] = 4;
-$a[4] = array('id' => 4, 'alias' => 'kontakty', 'path' => '', 'parent' => 0, 'isfolder' => 0);
-$m[] = array('0' => '4');
 $d['sitemap'] = 44;
 $a[44] = array('id' => 44, 'alias' => 'sitemap', 'path' => '', 'parent' => 0, 'isfolder' => 0);
 $m[] = array('0' => '44');
+$d['kontakty'] = 4;
+$a[4] = array('id' => 4, 'alias' => 'kontakty', 'path' => '', 'parent' => 0, 'isfolder' => 0);
+$m[] = array('0' => '4');
 $d['dostavka_vody_brovary'] = 48;
 $a[48] = array('id' => 48, 'alias' => 'dostavka_vody_brovary', 'path' => '', 'parent' => 0, 'isfolder' => 0);
 $m[] = array('0' => '48');
 $d['sozdanie_sajta_brovary'] = 49;
 $a[49] = array('id' => 49, 'alias' => 'sozdanie_sajta_brovary', 'path' => '', 'parent' => 0, 'isfolder' => 0);
 $m[] = array('0' => '49');
+$d['kvalificirovannye_gruzchiki_brovary_i_oblast'] = 50;
+$a[50] = array('id' => 50, 'alias' => 'kvalificirovannye_gruzchiki_brovary_i_oblast', 'path' => '', 'parent' => 0, 'isfolder' => 0);
+$m[] = array('0' => '50');
+$d['operativnye_gruzoperevozki_brovary'] = 51;
+$a[51] = array('id' => 51, 'alias' => 'operativnye_gruzoperevozki_brovary', 'path' => '', 'parent' => 0, 'isfolder' => 0);
+$m[] = array('0' => '51');
+$d['raznorabochij_brovary'] = 52;
+$a[52] = array('id' => 52, 'alias' => 'raznorabochij_brovary', 'path' => '', 'parent' => 0, 'isfolder' => 0);
+$m[] = array('0' => '52');
+$d['sborka_mebeli_i_restavraciya_v_gorode_brovary'] = 53;
+$a[53] = array('id' => 53, 'alias' => 'sborka_mebeli_i_restavraciya_v_gorode_brovary', 'path' => '', 'parent' => 0, 'isfolder' => 0);
+$m[] = array('0' => '53');
 $d['bystro'] = 18;
 $a[18] = array('id' => 18, 'alias' => 'bystro', 'path' => '', 'parent' => 1, 'isfolder' => 0);
 $m[] = array('1' => '18');
@@ -194,57 +206,57 @@ $m[] = array('1' => '19');
 $d['nadezhno'] = 20;
 $a[20] = array('id' => 20, 'alias' => 'nadezhno', 'path' => '', 'parent' => 1, 'isfolder' => 0);
 $m[] = array('1' => '20');
-$d['remont_motociklov_brovary_i_kiev'] = 25;
-$a[25] = array('id' => 25, 'alias' => 'remont_motociklov_brovary_i_kiev', 'path' => '', 'parent' => 2, 'isfolder' => 0);
-$m[] = array('2' => '25');
-$d['remont_mopedov_v_kiev_i_brovary_ezhednevno'] = 26;
-$a[26] = array('id' => 26, 'alias' => 'remont_mopedov_v_kiev_i_brovary_ezhednevno', 'path' => '', 'parent' => 2, 'isfolder' => 0);
-$m[] = array('2' => '26');
 $d['remont_kvadrociklov_i_moto'] = 28;
 $a[28] = array('id' => 28, 'alias' => 'remont_kvadrociklov_i_moto', 'path' => '', 'parent' => 2, 'isfolder' => 0);
 $m[] = array('2' => '28');
-$d['zapchasti_na_velosiped'] = 31;
-$a[31] = array('id' => 31, 'alias' => 'zapchasti_na_velosiped', 'path' => '', 'parent' => 3, 'isfolder' => 0);
-$m[] = array('3' => '31');
-$d['aksessuary_dlya_velosipeda'] = 30;
-$a[30] = array('id' => 30, 'alias' => 'aksessuary_dlya_velosipeda', 'path' => '', 'parent' => 3, 'isfolder' => 0);
-$m[] = array('3' => '30');
+$d['remont_mopedov_v_kiev_i_brovary_ezhednevno'] = 26;
+$a[26] = array('id' => 26, 'alias' => 'remont_mopedov_v_kiev_i_brovary_ezhednevno', 'path' => '', 'parent' => 2, 'isfolder' => 0);
+$m[] = array('2' => '26');
+$d['remont_motociklov_brovary_i_kiev'] = 25;
+$a[25] = array('id' => 25, 'alias' => 'remont_motociklov_brovary_i_kiev', 'path' => '', 'parent' => 2, 'isfolder' => 0);
+$m[] = array('2' => '25');
 $d['tyuning_velosipeda'] = 29;
 $a[29] = array('id' => 29, 'alias' => 'tyuning_velosipeda', 'path' => '', 'parent' => 3, 'isfolder' => 0);
 $m[] = array('3' => '29');
-$d['remont_i_zamena_matricy_noutbuka_kiev_brovary'] = 33;
-$a[33] = array('id' => 33, 'alias' => 'remont_i_zamena_matricy_noutbuka_kiev_brovary', 'path' => '', 'parent' => 10, 'isfolder' => 0);
-$m[] = array('10' => '33');
-$d['skoraya_kompyuternaya_pomoshh_kiev_brovary_na_domu'] = 34;
-$a[34] = array('id' => 34, 'alias' => 'skoraya_kompyuternaya_pomoshh_kiev_brovary_na_domu', 'path' => '', 'parent' => 10, 'isfolder' => 0);
-$m[] = array('10' => '34');
+$d['aksessuary_dlya_velosipeda'] = 30;
+$a[30] = array('id' => 30, 'alias' => 'aksessuary_dlya_velosipeda', 'path' => '', 'parent' => 3, 'isfolder' => 0);
+$m[] = array('3' => '30');
+$d['zapchasti_na_velosiped'] = 31;
+$a[31] = array('id' => 31, 'alias' => 'zapchasti_na_velosiped', 'path' => '', 'parent' => 3, 'isfolder' => 0);
+$m[] = array('3' => '31');
 $d['ustanovka_windows_kiev_i_brovary'] = 32;
 $a[32] = array('id' => 32, 'alias' => 'ustanovka_windows_kiev_i_brovary', 'path' => '', 'parent' => 10, 'isfolder' => 0);
 $m[] = array('10' => '32');
+$d['skoraya_kompyuternaya_pomoshh_kiev_brovary_na_domu'] = 34;
+$a[34] = array('id' => 34, 'alias' => 'skoraya_kompyuternaya_pomoshh_kiev_brovary_na_domu', 'path' => '', 'parent' => 10, 'isfolder' => 0);
+$m[] = array('10' => '34');
+$d['remont_i_zamena_matricy_noutbuka_kiev_brovary'] = 33;
+$a[33] = array('id' => 33, 'alias' => 'remont_i_zamena_matricy_noutbuka_kiev_brovary', 'path' => '', 'parent' => 10, 'isfolder' => 0);
+$m[] = array('10' => '33');
+$d['prokat_velosumok_i_veloaksessuarov'] = 39;
+$a[39] = array('id' => 39, 'alias' => 'prokat_velosumok_i_veloaksessuarov', 'path' => '', 'parent' => 11, 'isfolder' => 0);
+$m[] = array('11' => '39');
 $d['prokat_gopro_kiev_brovary'] = 37;
 $a[37] = array('id' => 37, 'alias' => 'prokat_gopro_kiev_brovary', 'path' => '', 'parent' => 11, 'isfolder' => 0);
 $m[] = array('11' => '37');
 $d['prokat_bagazhnika_i_detskogo_velokresla'] = 38;
 $a[38] = array('id' => 38, 'alias' => 'prokat_bagazhnika_i_detskogo_velokresla', 'path' => '', 'parent' => 11, 'isfolder' => 0);
 $m[] = array('11' => '38');
-$d['prokat_velosumok_i_veloaksessuarov'] = 39;
-$a[39] = array('id' => 39, 'alias' => 'prokat_velosumok_i_veloaksessuarov', 'path' => '', 'parent' => 11, 'isfolder' => 0);
-$m[] = array('11' => '39');
-$d['prokat_mopedov_i_arenda_dolgostrochnaya'] = 22;
-$a[22] = array('id' => 22, 'alias' => 'prokat_mopedov_i_arenda_dolgostrochnaya', 'path' => '', 'parent' => 12, 'isfolder' => 0);
-$m[] = array('12' => '22');
 $d['prokat_motorollerov_brovary'] = 21;
 $a[21] = array('id' => 21, 'alias' => 'prokat_motorollerov_brovary', 'path' => '', 'parent' => 12, 'isfolder' => 0);
 $m[] = array('12' => '21');
+$d['prokat_mopedov_i_arenda_dolgostrochnaya'] = 22;
+$a[22] = array('id' => 22, 'alias' => 'prokat_mopedov_i_arenda_dolgostrochnaya', 'path' => '', 'parent' => 12, 'isfolder' => 0);
+$m[] = array('12' => '22');
 $d['prokat_skuterov_kiev_i_brovary'] = 23;
 $a[23] = array('id' => 23, 'alias' => 'prokat_skuterov_kiev_i_brovary', 'path' => '', 'parent' => 12, 'isfolder' => 0);
 $m[] = array('12' => '23');
-$d['remont_stiralnyh_mashin_brovary'] = 36;
-$a[36] = array('id' => 36, 'alias' => 'remont_stiralnyh_mashin_brovary', 'path' => '', 'parent' => 16, 'isfolder' => 0);
-$m[] = array('16' => '36');
 $d['remont_holodilnikov_brovary'] = 35;
 $a[35] = array('id' => 35, 'alias' => 'remont_holodilnikov_brovary', 'path' => '', 'parent' => 16, 'isfolder' => 0);
 $m[] = array('16' => '35');
+$d['remont_stiralnyh_mashin_brovary'] = 36;
+$a[36] = array('id' => 36, 'alias' => 'remont_stiralnyh_mashin_brovary', 'path' => '', 'parent' => 16, 'isfolder' => 0);
+$m[] = array('16' => '36');
 $c = &$this->contentTypes;
 $c[44] = 'text/xml';
 $c = &$this->chunkCache;
@@ -365,7 +377,7 @@ $c['HEADER'] = '<header>
 		  <div class="slogan">Лучший сервис в Броварах! <br> <img title="Принимаем звонки c Viber " alt="Viber" class="roo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.svg" onerror="this.onerror=null; this.src=\'assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.png\'"><a id="tel" href="tel:0932704696" > тел. 093-270-46-96</a> </div>
 		  
           <div class="tooltips">
-			  <a href="https://vk.com/brovaryservice"target="_blank"><img class="rooo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-1.svg" alt=""></a><a href="https://www.facebook.com/pages/BroService/827952883955376"target="_blank"><img class="roo1" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-2.svg" alt=""></a><a href="https://plus.google.com/u/0/b/103623959270045742066/103623959270045742066/about"target="_blank"><img class="roo2" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-3.svg" alt=""></a>
+			  <a onclick="window.open(\'https://vk.com/brovaryservice\')"target="_blank"><img class="rooo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-1.svg" alt=""></a><a onclick="window.open(\'https://www.facebook.com/pages/BroService/827952883955376\')"target="_blank"><img class="roo1" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-2.svg" alt=""></a><a onclick="window.open(\'https://plus.google.com/u/0/b/103623959270045742066/103623959270045742066/about\')"target="_blank"><img class="roo2" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-3.svg" alt=""></a>
           </div>
 		</div>
 		  {{MENU}}
@@ -418,7 +430,7 @@ $c['FOOTER'] = '<footer style="color:#ff6c36">
       <p>Телефон: 093 270 46 96 &nbsp; Email: <a href="mailto:info@broservice.com.ua?subject=Вопрос по Серсвису broservice.com.ua" class="link">info@broservice.com.ua</a></p>
 	<a>Доставка воды Бровары</a> : <a href="http://crystalwater.kiev.ua/" class="link" target="_blank">crystalwater.kiev.ua</a>
 
-	 <a>Разработка сайта</a><!--rel="nofollow"!--> : <a href="http://AdFoto.com.ua" class="link" target="_blank">AdFoto.com.ua</a>
+	 <a>Разработка сайта</a><!--rel="nofollow"!--> : <a href="http://adfoto.com.ua" class="link" target="_blank">adfoto.com.ua</a>
 	<script>
   (function(i,s,o,g,r,a,m){i[\'GoogleAnalyticsObject\']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -429,6 +441,34 @@ $c['FOOTER'] = '<footer style="color:#ff6c36">
   ga(\'send\', \'pageview\');
 
 </script>
+	<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter34395165 = new Ya.Metrika({
+                    id:34395165,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/34395165" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 </footer>
 ';
 $c['HEAD_PRODUCTS'] = '<!DOCTYPE html>

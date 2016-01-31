@@ -99,7 +99,7 @@
 		  <div class="slogan">Лучший сервис в Броварах! <br> <img title="Принимаем звонки c Viber " alt="Viber" class="roo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.svg" onerror="this.onerror=null; this.src='assets/templates/Free%20Website%20Template%20Security%20Project/images/viber.png'"><a id="tel" href="tel:0932704696" > тел. 093-270-46-96</a> </div>
 		  
           <div class="tooltips">
-			  <a href="https://vk.com/brovaryservice"target="_blank"><img class="rooo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-1.svg" alt=""></a><a href="https://www.facebook.com/pages/BroService/827952883955376"target="_blank"><img class="roo1" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-2.svg" alt=""></a><a href="https://plus.google.com/u/0/b/103623959270045742066/103623959270045742066/about"target="_blank"><img class="roo2" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-3.svg" alt=""></a>
+			  <a onclick="window.open('https://vk.com/brovaryservice')"target="_blank"><img class="rooo" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-1.svg" alt=""></a><a onclick="window.open('https://www.facebook.com/pages/BroService/827952883955376')"target="_blank"><img class="roo1" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-2.svg" alt=""></a><a onclick="window.open('https://plus.google.com/u/0/b/103623959270045742066/103623959270045742066/about')"target="_blank"><img class="roo2" src="assets/templates/Free%20Website%20Template%20Security%20Project/images/icon-3.svg" alt=""></a>
           </div>
 		</div>
 		  <div class="nav-shadow">
@@ -191,7 +191,7 @@
       <p>Телефон: 093 270 46 96 &nbsp; Email: <a href="mailto:info@broservice.com.ua?subject=Вопрос по Серсвису broservice.com.ua" class="link">info@broservice.com.ua</a></p>
 	<a>Доставка воды Бровары</a> : <a href="http://crystalwater.kiev.ua/" class="link" target="_blank">crystalwater.kiev.ua</a>
 
-	 <a>Разработка сайта</a><!--rel="nofollow"!--> : <a href="http://AdFoto.com.ua" class="link" target="_blank">AdFoto.com.ua</a>
+	 <a>Разработка сайта</a><!--rel="nofollow"!--> : <a href="http://adfoto.com.ua" class="link" target="_blank">adfoto.com.ua</a>
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -202,6 +202,34 @@
   ga('send', 'pageview');
 
 </script>
+	<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter34395165 = new Ya.Metrika({
+                    id:34395165,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/34395165" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 </footer>
 
 <!--==============================footer=================================-->

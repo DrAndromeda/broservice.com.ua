@@ -23,8 +23,6 @@ Sitemap:http://broservice.com.ua/sitemap.xml
 # For sitemaps.xml autodiscovery. Uncomment if you have one:
 # Sitemap: http://example.com/sitemap.xml
 
-
-
 User-agent: Yandex
 Disallow: /administrator/
 Disallow: /cache/
